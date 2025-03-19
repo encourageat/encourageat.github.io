@@ -1,0 +1,77 @@
+.Home {
+    background: white;
+    display: flex;
+    min-height: 1100px;
+    max-height: 1500px;
+    padding-top: 80px;
+    flex-direction: column;
+    position: relative; /*parent is set as relative */
+}
+
+.Hometdetails {
+    flex-direction: row;
+}
+img {
+    position: absolute;
+    left: 53%;
+    width: 550px;
+    max-height: 720px;
+}
+
+p {
+    position: absolute;
+    color: black;
+    width: 35%;
+    left: 8%;
+    text-align: justify;
+    
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .Home .Homedetails {
+        flex-direction: column-reverse;
+    }
+    img {
+        position: absolute;
+        left: 8%;
+        width: 84%;
+        height: 250px;
+        visibility: hidden;
+        
+    }
+    
+    p {
+        position: absolute;
+        left: 5%;
+        color: black;
+        width: 90%;
+        text-align: justify;
+    }
+    
+}
+
+
+@media only screen and (max-width: 850px) {
+
+    .Home .Homedetails {
+        flex-direction: column-reverse;
+    }
+    img {
+        position: absolute;
+        left: 8%;
+        width: 84%;
+        height: 500px;
+        
+    }
+    
+    p {
+        position: absolute;
+        left: 5%;
+        color: black;
+        width: 90%;
+        text-align: justify;
+    }
+    
+}

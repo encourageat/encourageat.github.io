@@ -1,0 +1,76 @@
+.Contact {
+    background: white;
+    display: flex;
+    height: 950px;
+    padding-top: 80px;
+    flex-direction: column;
+    position: relative; /*parent is set as relative */
+}
+
+.Contactdetails {
+    flex-direction: row;
+}
+img {
+    position: absolute;
+    left: 53%;
+    width: 550px;
+    max-height: 720px;
+}
+
+p {
+    position: absolute;
+    color: black;
+    width: 35%;
+    left: 8%;
+    text-align: justify;
+    
+}
+
+
+@media only screen and (max-width: 850px) {
+
+    .Contact .Contactdetails {
+        flex-direction: column-reverse;
+    }
+    img {
+        position: absolute;
+        left: 8%;
+        width: 84%;
+        height: 250px;
+        visibility: hidden;
+        
+    }
+    
+    p {
+        position: absolute;
+        left: 5%;
+        color: black;
+        width: 90%;
+        text-align: justify;
+    }
+    
+}
+
+@media only screen and (max-width: 600px) {
+
+    .Contact .Contactdetails {
+        flex-direction: column-reverse;
+    }
+    img {
+        position: absolute;
+        left: 8%;
+        width: 84%;
+        height: 250px;
+        visibility: hidden;
+        
+    }
+    
+    p {
+        position: absolute;
+        left: 5%;
+        color: black;
+        width: 90%;
+        text-align: justify;
+    }
+    
+}
