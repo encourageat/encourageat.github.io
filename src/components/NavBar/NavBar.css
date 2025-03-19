@@ -1,5 +1,5 @@
 .NavBar {
-    background-color: darkblue;
+    background-color: rgb(13, 13, 174);
     height: 80px;
     width: 100%;
     position: fixed; /*To take care while scrolling*/
