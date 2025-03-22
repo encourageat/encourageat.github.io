@@ -2,6 +2,7 @@ import './Blog.css'
 //import { useEffect } from 'react'
 import PageHeader from '../PageHeader/PageHeader'
 import pinkflower from '../../img/pinkflower.jpg'
+import flowerswhite from '../../img/flowerswhite.jpg'
 import Footer from '../../components/Footer/Footer'
 
 
@@ -18,7 +19,7 @@ const Blog = () => {
         <br/>
         For visiting the blog site, click<a href="https://encourageat.github.io/blog/" target="_blank" rel="noopener noreferrer" style={{ color: 'blue', textDecoration: 'underline' }}> here.</a>
         </p>
-        <img src={pinkflower} alt="pink flower image"></img>
+        <img src={flowerswhite} alt="flowerswhite image"></img>
         </div>
         <Footer/>
         </div>
