@@ -1,30 +1,42 @@
 import './Services.css'
-import PageHeader from '../../components/PageHeader/PageHeader'
-import pinkflower from '../../img/pinkflower.jpg'
-import beatch from '../../img/beatch.jpg'
+import NavBar from '../../components/NavBar/NavBar'
 import Footer from '../../components/Footer/Footer'
+import PageHeader from '../../components/PageHeader/PageHeader'
 
 const Services = () => {
     return (
-        <div className="Services"> 
-        <div>
-            <PageHeader title={'Welcome..'}/>
-        </div>      
-        <div className="Servicesdetails">
-        <p>
-        <h2>Services..</h2>
-        Offers freelance development, consulting and online training.<br/><br/> Training is  on Identity and Access Management- IAM with focus on Keycloak.
-        To know more on it click <a href="/#/training/" target="_blank" rel="noopener noreferrer" style={{ color: 'blue', textDecoration: 'underline' }}> here.</a>
+        <div> 
+        <header>
+            <PageHeader title={'Services..'}/>
+        </header>
+        <div className="container">
+        <section className="homesection" style={{ 
+            backgroundImage: `url(images/freelance-development.jpg)`
+            }}>
+            <div className="card">
+                <h2>Freelance Development</h2>
+                <p>Offering software development services in Java, Identity & Access Management and cloud solutions. Providing high-quality, scalable applications tailored to client needs.</p>
+            </div>
+        </section>
+        <section className="homesection" style={{ 
+            backgroundImage: `url('images/consulting.jpg')` 
+            }}>
+            <div className="card">
+                <h2>Consulting</h2>
+                <p>Helping businesses implement IAM solutions, and improve security infrastructure with expert guidance.</p>
+            </div>
+        </section>
 
-        <br/><br/>Other services include foundational training on Java and Spring Boot.<br/>
-        <br/>Hourly rate - US $10 (Rs 800 within India)<br/>
-        <br/>
-        For more details, please contact in the below email <br/>
-        <br/>Email: encourageat@gmail.com
-        </p>
-        <img src={beatch} alt="beatch image"></img>
+        <section className="homesection" style={{ 
+            backgroundImage: `url('images/teaching.jpg')` 
+            }}>    
+            <div className="card">
+                <h2>Training</h2>
+                <p>Providing online training sessions on IAM,Keycloak,Java, and software development best practices, tailored for professionals and organizations.</p>
+            </div>
+        </section>
         </div>
-        <Footer/>
+        <Footer/>     
         </div>
       );    
 }

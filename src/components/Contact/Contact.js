@@ -6,17 +6,20 @@ import Footer from '../../components/Footer/Footer'
 
 const Contact = () => {
     return (
-        <div className="Contact"> 
-        <div>
-            <PageHeader title={'Contact Details..'}/>
-        </div>
-        <div className="Contactdetails">
-        <p>
-            Email: 
-            <br/>
-            encourageat@gmail.com
-        </p>
-        <img src={pinkflower} alt="pinkflower image"></img>
+        <div> 
+        <header>
+        <PageHeader title={'Contact..'}/>
+        </header>
+        <div className="container">
+        <section className="leftsection">
+               <p>For services please contact in the below email.<br/> encourageat@gmail.com</p>
+        <br/>  
+        </section>
+        <section className="rightsection" style={{ 
+            backgroundImage: `url(images/freelance-development.jpg)`
+            }}>
+            
+        </section>
         </div>
         <Footer/>
         </div>

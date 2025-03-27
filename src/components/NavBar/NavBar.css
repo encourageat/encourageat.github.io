@@ -1,5 +1,5 @@
 .NavBar {
-    background-color: rgb(13, 13, 174);
+    background-color: darkblue;
     height: 80px;
     width: 100%;
     position: fixed; /*To take care while scrolling*/
@@ -33,6 +33,25 @@ a {
     display: none;
 }
 
+.company-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.contact-email {
+    display: flex;
+    align-items: right;
+    gap: 8px; /* Space between icon and text */
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+.email-icon {
+    width: 18px; 
+    height: 18px;
+}
 @media only screen and (max-width: 909px) {
 
     .MobileNavigation {
@@ -76,3 +95,5 @@ a {
     }
 
 }
+
+

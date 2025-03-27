@@ -4,7 +4,14 @@ import "./Footer.css"; // Import the CSS file
 const Footer = () => {
   return (
     <footer className="footer">
-      <div className="container mx-auto text-center">
+      <div class="footer-content">
+        <div class="contact-info">
+            <p>Email: encouarageat@gmail.com</p>
+            <p>Location: Kerala, India</p>
+        </div>
+
+    </div>
+    <div className="copyright">
         <h3>&copy; {new Date().getFullYear()} - EncourageAt</h3>
       </div>
     </footer>
