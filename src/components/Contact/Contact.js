@@ -1,7 +1,5 @@
 import './Contact.css'
 import PageHeader from '../../components/PageHeader/PageHeader'
-import pinkflower from '../../img/pinkflower.jpg'
-import maldives from '../../img/maldives.jpg'
 import Footer from '../../components/Footer/Footer'
 
 const Contact = () => {
@@ -16,7 +14,7 @@ const Contact = () => {
         <br/>  
         </section>
         <section className="rightsection" style={{ 
-            backgroundImage: `url(images/freelance-development.jpg)`
+            backgroundImage: `url(images/pinkflower.jpg)`
             }}>
             
         </section>

@@ -15,7 +15,7 @@ const Services = () => {
             }}>
             <div className="card">
                 <h2>Freelance Development</h2>
-                <p>Offering software development services in Java, Identity & Access Management and cloud solutions. Providing high-quality, scalable applications tailored to client needs.</p>
+                <p>Offering software development services in Java, Identity & Access Managementcc and cloud solutions. Providing high-quality, scalable applications tailored to client needs.</p>
             </div>
         </section>
         <section className="homesection" style={{ 
@@ -32,7 +32,7 @@ const Services = () => {
             }}>    
             <div className="card">
                 <h2>Training</h2>
-                <p>Providing online training sessions on IAM,Keycloak,Java, and software development best practices, tailored for professionals and organizations.</p>
+                <p>Providing online training sessions on IAM,Keycloak,Java and software development best practices, tailored for professionals and organizations.</p>
             </div>
         </section>
         </div>
