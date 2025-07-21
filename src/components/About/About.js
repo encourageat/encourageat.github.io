@@ -16,9 +16,16 @@ const About = () => {
         <section className="leftsection">
             <div>
                 
-                I'm George V. Thomas, an experienced Software Developer specializing in Identity and Access Management (IAM) and Java technologies. I have over 23 years of experience in Software companies mainly in development.
-                <br/> <br/>
-        Domain Experience:<br/> Identity and Access Management, Payment etc.
+                I'm George V. Thomas, currently working as a Freelance Consultant on a Keycloak implementation project on AWS.
+                
+                <br/><br/>I have over two decades of IT experience and previously served in product and service-based MNCs in various full-time roles.<br/>
+
+                 <br/>I have a passion for designing and implementing IAM and cloud-native solutions, with extensive experience in SSO, OAuth, OpenID Connect, SAML, among others. 
+                <br/><br/>In the IAM domain, I have over 13 years of experience in enhancing an IAM product of Entrust, Canada (Entrust GetAccess)
+                <br/><br/>
+                Please contact me for your business requirements. <br/>For contact details click <a href="/#/contact" style={{ color: 'blue' }}>here</a>
+
+      <br/>
         <br/><br/>
 
             </div>
@@ -26,7 +33,7 @@ const About = () => {
        
 
         <section className="rightsection" style={{ 
-            backgroundImage: `url(images/freelance-development.jpg)`
+            backgroundImage: `url(images/flower.jpg)`
             }}>
             
         </section>

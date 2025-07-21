@@ -1,9 +1,9 @@
 /* Container to hold the sections */
-.containertr {
+.container {
     display: flex;
     justify-content: space-between; /* Even spacing */
     flex-wrap: wrap; /* Allows stacking on smaller screens */
-    padding-left: 80px;
+    padding: 100px;
 }
 /*
 section {
@@ -14,57 +14,30 @@ section {
 }
     */
 
-
-    .lefttrsection {
-        background-size: cover;
-        background-position: center;
-        height: auto;
-        width: 32%;
-        margin: 5px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-       
-    }
-    
-    .righttrsection {
-        background-size: cover;
-        background-position: center;
-        height: auto;
-        width: 32%;
-        margin: 5px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-    }
-/*
-.lefttrsection {
+.leftsection {
     background-size: cover;
     background-position: center;
-    height: auto;
+    height: 400px;
     width: 32%;
-    margin: 2px;
+    margin: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
 }
 
-
-.righttrsection {
+.rightsection {
     background-size: cover;
     background-position: center;
-    height: auto;
-    width: 32%;
-    margin: 2px;
+    height: 400px;
+    width: 45%;
+    margin: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
 }
-*/
+
 .card {
     background-color: rgba(255, 255, 255, 0.8); /* Light overlay for readability */
     padding: 20px;
@@ -137,11 +110,11 @@ footer {
         padding: 0px;
     }
     
-    .lefttrsection {
+    .leftsection {
         width: 90%; /* Take full width on mobile */
     }
 
-    .righttrsection {
+    .rightsection {
         width: 90%; /* Take full width on mobile */
     }
     .footer-content {

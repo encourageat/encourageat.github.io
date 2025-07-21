@@ -12,9 +12,11 @@ import Blog from './components/Blog/Blog'
 */
 
 import Contact from './components/Contact/Contact'
-import Training from './components/Training/Training'
+//import Training from './components/Training/Training'
 
 import About from './components/About/About'
+import Blog from './components/Blog/Blog'
+import Home from './components/Home/Home'
 
 
 const App = () => {
@@ -24,8 +26,8 @@ const App = () => {
       <Routes>
       <Route path="/about" exact element={<About/>}/>
       <Route path='/contact' element={<Contact/>} />
-      <Route path='/training' element={<Training/>} />
-          <Route path="/" exact element={<Services/>}/>
+      <Route path='/services' element={<Services/>} />
+      <Route path="/" exact element={<Home/>}/>
       </Routes>
     </div>
   );

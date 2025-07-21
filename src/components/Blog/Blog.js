@@ -1,18 +1,16 @@
-import './Contact.css'
+import './Blog.css'
 import PageHeader from '../../components/PageHeader/PageHeader'
 import Footer from '../../components/Footer/Footer'
 
-const Contact = () => {
+const Blog = () => {
     return (
         <div> 
         <header>
-        <PageHeader title={'Contact..'}/>
+        <PageHeader title={'Blog..'}/>
         </header>
         <div className="container">
         <section className="leftsection">
-               <p>For services or any type of business collaboration, please contact me at the email below:<br/> <br/>encourageat@gmail.com <br/>
-               <br/>Upon receiving your email, I will set up a free 15-minute call at a mutually convenient time to understand your requirements, and we can proceed further accordingly.</p>
-
+               <p>For services please contact in the below email.<br/> encourageat@gmail.com</p>
         <br/>  
         </section>
         <section className="rightsection" style={{ 
@@ -25,4 +23,4 @@ const Contact = () => {
         </div>
       );   
 }
-export default Contact;
+export default Blog;

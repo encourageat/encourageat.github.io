@@ -7,7 +7,7 @@ const Footer = () => {
       <div class="footer-content">
         <div class="contact-info">
             <p>Email: encouarageat@gmail.com</p>
-            <p>Location: Kerala, India</p>
+            <p>Location: Tiruvalla, Kerala, India</p>
         </div>
 
     </div>
