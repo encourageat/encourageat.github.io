@@ -8,8 +8,9 @@ import Services from './components/Services/Services'
 import NavBar from './components/NavBar/NavBar'
 /*
 import Home from './components/Home/Home'
-import Blog from './components/Blog/Blog'
 */
+//import Blog from './components/Blog/Blog'
+
 
 import Contact from './components/Contact/Contact'
 //import Training from './components/Training/Training'
@@ -27,6 +28,7 @@ const App = () => {
       <Route path="/about" exact element={<About/>}/>
       <Route path='/contact' element={<Contact/>} />
       <Route path='/services' element={<Services/>} />
+      <Route path='/blog' element={<Blog/>} />
       <Route path="/" exact element={<Home/>}/>
       </Routes>
     </div>

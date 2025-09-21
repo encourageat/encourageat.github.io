@@ -11,12 +11,12 @@ const Home = () => {
     return (
         <div> 
         <header>
-        <PageHeader title={'Keycloak Solutions'}/>
+        <PageHeader title={'IAM Solutions | Keycloak'}/>
         </header>
         <div className="container">
         <section className="leftsection">
             <div>
-               <h1>Keycloak Consultant</h1>
+               <h1>IAM Consultant</h1>
   <p>
     I'm George V. Thomas, an independent Software Consultant with a primary focus on Identity and Access Management (IAM) solutions using <b>Keycloak</b>. 
     I offer services as Keycloak consultant, trainer, and freelance developer with a focus on Identity and Access Management Domain and cloud solutions.
@@ -24,6 +24,7 @@ const Home = () => {
     I will be happy to assist you with IAM solutions on cloud (primary focus on AWS), training or development requirements. 
     <br/><br/>
     For more details on services, please go to the Services menu or click <a href="/#/services" style={{ color: 'blue' }}>here</a>
+    
 
   </p>
             </div>

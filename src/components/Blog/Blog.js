@@ -10,11 +10,11 @@ const Blog = () => {
         </header>
         <div className="container">
         <section className="leftsection">
-               <p>For services please contact in the below email.<br/> encourageat@gmail.com</p>
+               <p>Some of my blogs are available at <a href="https://medium.com/@encourageat" style={{ color: 'blue' }}>this</a> medium account. Please note that its an external site<br/></p>
         <br/>  
         </section>
         <section className="rightsection" style={{ 
-            backgroundImage: `url(images/pinkflower.jpg)`
+            backgroundImage: `url(images/blog.jpg)`
             }}>
             
         </section>

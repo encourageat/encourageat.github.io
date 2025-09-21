@@ -44,6 +44,9 @@ const NavLinks = (props) => {
             <li onClick = {() =>props.isMobile && props.closeMobileMenu()}>
                 <a href="/#/services">Services</a>
             </li>
+            <li onClick = {() =>props.isMobile && props.closeMobileMenu()}>
+                <a href="/#/Blog">Blog</a>
+            </li>
              <li onClick = {() =>props.isMobile && props.closeMobileMenu()}>
                 <a href="/#/contact">Contact</a>
             </li>
