@@ -19,7 +19,7 @@ const About = () => {
                 I'm George V. Thomas, and have over two decades of IT experience and previously served in product and service-based MNCs in various full-time roles.<br/>
 
                  <br/>I have a passion for designing and implementing IAM and cloud-native solutions, with extensive experience in SSO, OAuth, OpenID Connect, SAML, among others. 
-                <br/><br/>In the IAM domain, I have over 13 years of experience in enhancing an IAM product of Entrust, Canada and also have some freelance IAM consulting experience on Keycloak
+                <br/><br/>In the IAM domain, I have over 13 years of experience in enhancing an IAM product of Entrust, Canada and also have some other freelance IAM consulting experience on Keycloak of late.
                 <br/><br/>
                 Please contact me for your business requirements. <br/>For contact details click <a href="/#/contact" style={{ color: 'blue' }}>here</a>
                 <br/><br/>I am open to full time or long term contract roles also.

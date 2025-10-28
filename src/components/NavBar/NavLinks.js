@@ -13,9 +13,6 @@ const NavLinks = (props) => {
                 <a href="/#/about">About</a>
             </li>
             <li onClick = {() =>props.isMobile && props.closeMobileMenu()}>
-                <a href="/#/services">Services</a>
-            </li>
-            <li onClick = {() =>props.isMobile && props.closeMobileMenu()}>
                 <a href="/#/Training">Training</a>
             </li>
             <li onClick = {() =>props.isMobile && props.closeMobileMenu()}>
@@ -29,6 +26,16 @@ const NavLinks = (props) => {
       );    
 }
 export default NavLinks;
+
+/*
+
+ <li onClick = {() =>props.isMobile && props.closeMobileMenu()}>
+                <a href="/#/about">About</a>
+            </li>
+
+                       <li onClick = {() =>props.isMobile && props.closeMobileMenu()}>
+                <a href="/#/services">Services</a>
+            </li>
 
 /*
 
