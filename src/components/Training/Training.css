@@ -1,0 +1,155 @@
+/* Container to hold the sections */
+.containertr {
+    display: flex;
+    justify-content: space-between; /* Even spacing */
+    flex-wrap: wrap; /* Allows stacking on smaller screens */
+    padding-left: 80px;
+}
+/*
+section {
+    background-color: #9dff00;
+    height: 600px;
+    width: 32%;
+    margin: 5px;
+}
+    */
+
+
+    .lefttrsection {
+        background-size: cover;
+        background-position: center;
+        height: auto;
+        width: 32%;
+        margin: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+       
+    }
+    
+    .righttrsection {
+        background-size: cover;
+        background-position: center;
+        height: auto;
+        width: 32%;
+        margin: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+/*
+.lefttrsection {
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    width: 32%;
+    margin: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+.righttrsection {
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    width: 32%;
+    margin: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+*/
+.card {
+    background-color: rgba(255, 255, 255, 0.8); /* Light overlay for readability */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    max-width: 80%;
+}
+
+h2 {
+    margin: 0 0 10px 0;
+}
+
+p {
+    font-size: 16px;
+}
+
+header {
+    background-color: whitesmoke;
+    margin: 0px 5px;    
+    height: 150px;
+}
+/*
+footer {
+    background-color: darkblue;
+    height: 150px;
+    
+}
+*/
+
+footer {
+    background-color: darkblue;
+    height: auto;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.contact-info {
+    text-align: left;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-icons img {
+    width: 30px; /* Adjust icon size */
+    height: 30px;
+    filter: brightness(0) invert(1); /* Makes dark icons white */
+}
+
+/**/
+
+
+/* Responsive design: Stack sections on smaller screens */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Stack sections vertically */
+        align-items: center; /* Center align for better appearance */
+        padding: 0px;
+    }
+    
+    .lefttrsection {
+        width: 90%; /* Take full width on mobile */
+    }
+
+    .righttrsection {
+        width: 90%; /* Take full width on mobile */
+    }
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contact-info {
+        margin-bottom: 10px;
+    }
+}
