@@ -11,7 +11,7 @@ const Contact = () => {
         <div className="container">
         <section className="leftsection">
                <p>For services or any type of business collaboration, please contact me at the email below:<br/> <br/>encourageat@gmail.com <br/>
-               <br/>Upon receiving your email, I will set up a free 15-minute call at a mutually convenient time to understand your requirements, and we can proceed further accordingly.</p>
+               <br/>Upon receiving your email, I will set up a free 15-minute call at a mutually convenient time to understand your requirements, and we can proceed further accordingly. <br></br>For training requirements, I can conduct the training at a mutually convenient time.</p>
 
         <br/>  
         </section>

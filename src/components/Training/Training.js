@@ -17,7 +17,7 @@ const Training = () => {
 
 <h3>Keycloak</h3>
 
-<p><strong>Target audience:</strong> Anyone interested in the Identity and Access Management (IAM) domain and Keycloak. Programming knowledge is preferred for some of the practical sessions <em>(Training session is conducted in English)</em></p>
+<p><strong>Target audience:</strong> Anyone interested in the Identity and Access Management (IAM) domain and Keycloak. Programming knowledge is needed for some of the practical sessions <em>(Training session is conducted in English)</em></p>
 
 <h4>Session 1 – Introduction &amp; Setup</h4>
 

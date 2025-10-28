@@ -23,7 +23,7 @@ const Services = () => {
             }}>    
             <div className="card">
                 <h2>Keycloak Training</h2>
-                <p>Providing individual as well as corporate online training sessions on Keycloak, covering IAM fundamentals, SSO, OAuth, OpenID Connect, SAML, user federation, customizing Keycloak, MFA, social login, Service Provider Interface, cluster deployment, and more. For more details, please refer the training menu.</p>
+                <p>Providing individual as well as corporate online training sessions on Keycloak, covering IAM from fundamentals, SSO, OAuth, OpenID Connect, SAML, user federation, customizing Keycloak, MFA, social login, Service Provider Interface, cluster deployment, and more. For more details click <a href="/#/training" style={{ color: 'blue' }}>here</a></p>
             </div>
         </section>
          <section className="homesection" style={{ 

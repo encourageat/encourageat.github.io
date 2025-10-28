@@ -23,7 +23,7 @@ const Home = () => {
     <br/><br/>
     I will be happy to assist you with IAM solutions on cloud (primary focus on AWS), training or development requirements. 
     <br/><br/>
-    For more details on services, please go to the Services menu or click <a href="/services" style={{ color: 'blue' }}>here</a>
+    For more details on services, please go to the Services menu or click <a href="/#/services" style={{ color: 'blue' }}>here</a>
     
 
   </p>
