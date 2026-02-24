@@ -15,15 +15,15 @@ const Services = () => {
             }}>
             <div className="card">
                 <h2>IAM Consulting</h2>
-                <p>Helping businesses implement Identity and Access Management (IAM) solutions using Keycloak on the cloud, and improve their security infrastructure with expert guidance, including assistance with SSO, authentication, authorization, and custom solutions tailored for each business use case.</p>
+                <p>Helping businesses implement Identity and Access Management (IAM) solutions on the cloud, and improve their security infrastructure with expert guidance, including assistance with SSO, authentication, authorization, and custom solutions tailored for each business use case.</p>
             </div>
         </section>
          <section className="homesection" style={{ 
             backgroundImage: `url('images/teaching.jpg')` 
             }}>    
             <div className="card">
-                <h2>Keycloak Training</h2>
-                <p>Providing individual as well as corporate online training sessions on Keycloak, covering IAM from fundamentals, SSO, OAuth, OpenID Connect, SAML, user federation, customizing Keycloak, MFA, social login, Service Provider Interface, cluster deployment, and more. For more details click <a href="/#/training" style={{ color: 'blue' }}>here</a></p>
+                <h2>IAM Training</h2>
+                <p>Providing individual as well as corporate online training sessions on IAM, Auth0 and Keycloak covering IAM from fundamentals, SSO, OAuth, OpenID Connect, SAML, user federation, customization, MFA, social login and more. For more details click <a href="/" style={{ color: 'blue' }}>here</a></p>
             </div>
         </section>
          <section className="homesection" style={{ 

@@ -10,8 +10,8 @@ const Contact = () => {
         </header>
         <div className="container">
         <section className="leftsection">
-               <p>For services or any type of business collaboration, please contact me at the email below:<br/> <br/>encourageat@gmail.com <br/>
-               <br/>Upon receiving your email, I will set up a free 15-minute call at a mutually convenient time to understand your requirements, and we can proceed further accordingly. <br></br>For training requirements, I can conduct the training at a mutually convenient time.</p>
+               <p>Please contact me at the following email id for your training requirements with name of the course you wnat to enroll and the desired time:<br/> <br/>encourageat@gmail.com <br/>
+               <br/>For consulting requirements also you can use the above email. <br></br>Consulting charge is hourly based with slots of 30 minutes or 1 hour</p>
 
         <br/>  
         </section>

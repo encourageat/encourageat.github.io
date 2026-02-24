@@ -1,155 +1,86 @@
-/* Container to hold the sections */
 .containertr {
-    display: flex;
-    justify-content: space-between; /* Even spacing */
-    flex-wrap: wrap; /* Allows stacking on smaller screens */
-    padding-left: 80px;
-}
-/*
-section {
-    background-color: #9dff00;
-    height: 600px;
-    width: 32%;
-    margin: 5px;
-}
-    */
-
-
-    .lefttrsection {
-        background-size: cover;
-        background-position: center;
-        height: auto;
-        width: 32%;
-        margin: 5px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-       
-    }
-    
-    .righttrsection {
-        background-size: cover;
-        background-position: center;
-        height: auto;
-        width: 32%;
-        margin: 5px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-    }
-/*
-.lefttrsection {
-    background-size: cover;
-    background-position: center;
-    height: auto;
-    width: 32%;
-    margin: 2px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
+  width: 80%;
+  margin: auto;
+  padding: 40px 0;
 }
 
-
-.righttrsection {
-    background-size: cover;
-    background-position: center;
-    height: auto;
-    width: 32%;
-    margin: 2px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-}
-*/
-.card {
-    background-color: rgba(255, 255, 255, 0.8); /* Light overlay for readability */
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
-    max-width: 80%;
+.course-section {
+  margin-bottom: 60px;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.08);
 }
 
-h2 {
-    margin: 0 0 10px 0;
+.course-section h2 {
+  margin-bottom: 15px;
+  color: #1a1a1a;
 }
 
-p {
-    font-size: 16px;
+.course-section ul {
+  padding-left: 20px;
 }
 
-header {
-    background-color: whitesmoke;
-    margin: 0px 5px;    
-    height: 150px;
-}
-/*
-footer {
-    background-color: darkblue;
-    height: 150px;
-    
-}
-*/
-
-footer {
-    background-color: darkblue;
-    height: auto;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
+.containertr {
+  width: 85%;
+  margin: auto;
+  padding: 40px 0;
 }
 
-.footer-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 80%;
-    margin: 0 auto;
+.course-card {
+  margin-bottom: 30px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+  overflow: hidden;
 }
 
-.contact-info {
-    text-align: left;
+.course-header {
+  padding: 20px;
+  background-color: #f4f6f8;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
 }
 
-.social-icons a {
-    margin: 0 10px;
-    display: inline-block;
+.course-header h2 {
+  margin: 0;
 }
 
-.social-icons img {
-    width: 30px; /* Adjust icon size */
-    height: 30px;
-    filter: brightness(0) invert(1); /* Makes dark icons white */
+.course-content {
+  padding: 25px;
 }
 
-/**/
+.course-content h4 {
+  margin-top: 20px;
+}
 
+.pricing {
+  margin-top: 25px;
+  padding: 15px;
+  background-color: #eef6ff;
+  border-radius: 6px;
+}
 
-/* Responsive design: Stack sections on smaller screens */
-@media (max-width: 768px) {
-    .container {
-        flex-direction: column; /* Stack sections vertically */
-        align-items: center; /* Center align for better appearance */
-        padding: 0px;
-    }
-    
-    .lefttrsection {
-        width: 90%; /* Take full width on mobile */
-    }
+.timing-box {
+  width: 85%;
+  margin: 20px auto;
+  padding: 20px;
+  background: #eef6ff;
+  border-radius: 8px;
+}
 
-    .righttrsection {
-        width: 90%; /* Take full width on mobile */
-    }
-    .footer-content {
-        flex-direction: column;
-        text-align: center;
-    }
+.enroll-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
 
-    .contact-info {
-        margin-bottom: 10px;
-    }
+.enroll-btn:hover {
+  background: #0056b3;
 }

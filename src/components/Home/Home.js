@@ -18,8 +18,8 @@ const Home = () => {
             <div>
                <h1>IAM Consultant</h1>
   <p>
-    I'm George V. Thomas, an independent Software Consultant with a primary focus on Identity and Access Management (IAM) solutions using <b>Keycloak</b>. 
-    I offer services as Keycloak consultant, trainer, and freelance developer with a focus on Identity and Access Management Domain and cloud solutions.
+    I'm George V. Thomas, an independent Software Consultant on Identity and Access Management (IAM).<br/>
+    I offer services as IAM consultant, trainer, and freelance developer with a focus on Identity and Access Management Domain and cloud solutions.
     <br/><br/>
     I will be happy to assist you with IAM solutions on cloud (primary focus on AWS), training or development requirements. 
     <br/><br/>
