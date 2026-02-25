@@ -15,14 +15,15 @@ const About = () => {
         <div className="container">
         <section className="leftsection">
             <div>
-                          
-                I'm George V. Thomas, and have over two decades of IT experience and previously served in product and service-based MNCs in various full-time roles.<br/>
+                  I’m George V. Thomas, the maintainer of this website. I bring over two decades of experience in the IT industry, having worked in both product-based and service-based multinational organizations in various full-time roles.<br/><br/>
 
-                 <br/>I have a passion for designing and implementing IAM and cloud-native solutions, with extensive experience in SSO, OAuth, OpenID Connect, SAML, among others. 
-                <br/><br/>In the IAM domain, I have over 13 years of experience in enhancing an IAM product of Entrust, Canada and also have some other freelance IAM consulting experience on Keycloak of late.
-                <br/><br/>
-                Please contact me for your business requirements. <br/>For contact details click <a href="/#/contact" style={{ color: 'blue' }}>here</a>
-                <br/><br/>I am open to full time or long term contract roles also.
+I am passionate about sharing knowledge and designing secure, scalable Identity and Access Management (IAM) and cloud-native solutions. My expertise includes Single Sign-On (SSO), OAuth 2.0, OpenID Connect (OIDC), SAML, and modern authentication and authorization frameworks.<br/><br/>
+
+In the IAM domain, I have nearly 14 years of experience contributing to and enhancing an IAM product at Entrust, Canada, including extensive Level 3 technical support. I currently work with a managed Keycloak IAM provider on a contract role and also have prior IAM consulting experience.<br/><br/>
+
+I offer both one-to-one and group training programs tailored to professionals and organizations.<br/>       
+                <br/>For contact details click <a href="/#/contact" style={{ color: 'blue' }}>here</a>
+                <br/>
 
       <br/>
         <br/><br/>

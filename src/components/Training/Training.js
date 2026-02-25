@@ -216,8 +216,8 @@ const Training = () => {
 
               <div className="pricing">
                 <h4>Pricing</h4>
-                <p><strong>India:</strong> ₹9,000 INR</p>
-                <p><strong>Outside India:</strong> USD $140</p>
+                <p><strong>India:</strong> ₹8,500 INR</p>
+                <p><strong>Outside India:</strong> USD $135</p>
                 <p><strong>Duration:</strong> 20 to 25 hours</p>
               </div>
 

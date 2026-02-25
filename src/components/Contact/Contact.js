@@ -1,28 +1,81 @@
-import './Contact.css'
-import PageHeader from '../../components/PageHeader/PageHeader'
-import Footer from '../../components/Footer/Footer'
+import "./Contact.css";
+import PageHeader from "../../components/PageHeader/PageHeader";
+import Footer from "../../components/Footer/Footer";
 
 const Contact = () => {
-    return (
-        <div> 
-        <header>
-        <PageHeader title={'Contact..'}/>
-        </header>
-        <div className="container">
-        <section className="leftsection">
-               <p>Please contact me at the following email id for your training requirements with name of the course you wnat to enroll and the desired time:<br/> <br/>encourageat@gmail.com <br/>
-               <br/>For consulting requirements also you can use the above email. <br></br>Consulting charge is hourly based with slots of 30 minutes or 1 hour</p>
+  return (
+    <div>
 
-        <br/>  
-        </section>
-        <section className="rightsection" style={{ 
-            backgroundImage: `url(images/pinkflower.jpg)`
-            }}>
-            
-        </section>
+      <PageHeader title={"Contact & Enrollment"} />
+
+      <div className="contact-wrapper">
+
+        <div className="contact-card">
+          <p className="intro-text">Thank you for your interest.. <br/>
+             Contact email: <p className="email">encourageat@gmail.com</p>
+             For <strong>training requirements
+              </strong> please go through below</p>
+
+          <h2>Enroll in IAM Training Programs</h2>
+
+          <p className="intro-text">
+            Thank you for your interest in EncourageAt training programs.
+            Offer structured, hands-on IAM courses designed for students,
+            working professionals, and enterprise teams.
+          </p>
+
+          <div className="highlight-box">
+            <h3>Email for Enrollment</h3>
+            <p className="email">encourageat@gmail.com</p>
+          </div>
+
+          <h3>📌 Please Include the Following Details</h3>
+
+          <ul className="details-list">
+            <li>✔ Full Name</li>
+            <li>✔ Country of Residence</li>
+            <li>✔ Course Name</li>
+            <li>✔ Preferred Timing (Weekday / Saturday)</li>
+          </ul>
+
+          <h3>🎓 Available Courses</h3>
+
+          <div className="course-list">
+            <div className="course-item">
+              <h4>IAM – Beginner</h4>
+              <p>Foundations of Identity and Access Management including SSO, OAuth2, OIDC, SAML, MFA etc.</p>
+            </div>
+
+            <div className="course-item">
+              <h4>Auth0 – Intermediate</h4>
+              <p>Hands-on CIAM implementation, application integration, flows, rules, and customization.</p>
+            </div>
+
+            <div className="course-item">
+              <h4>Keycloak – Advanced</h4>
+              <p>Enterprise IAM deployment, federation, SPI development, observability, and production setup.</p>
+            </div>
+          </div>
+
+          <h3>🕒 Training Timings (IST)</h3>
+
+          <div className="timing-box">
+            <p><strong>Weekdays:</strong> 9:00 AM – 11:30 PM (Flexible 1-hour sessions)</p>
+            <p><strong>Saturday:</strong> 7:00 AM – 5:00 PM  (Saturday only 2-hour sessions)</p>
+          </div>
+
+          <p className="closing-text">
+            Will typically respond within 24 hours with batch availability and payment instructions.<br/>
+          </p>
+
         </div>
-        <Footer/>
-        </div>
-      );   
-}
+
+      </div>
+
+      <Footer />
+
+    </div>
+  );
+};
+
 export default Contact;
