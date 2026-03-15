@@ -19,13 +19,24 @@ const About = () => {
 
 I am passionate about sharing knowledge and designing secure, scalable Identity and Access Management (IAM) and cloud-native solutions. My expertise includes Single Sign-On (SSO), OAuth 2.0, OpenID Connect (OIDC), SAML, and modern authentication and authorization frameworks.<br/><br/>
 
-In the IAM domain, I have nearly 14 years of experience contributing to and enhancing an IAM product at Entrust, Canada, including extensive Level 3 technical support. I currently work with a managed Keycloak IAM provider on a contract role and also have prior IAM consulting experience.<br/><br/>
+In the IAM domain, I have nearly 14 years of experience contributing to and enhancing an IAM product at Entrust, Canada, including extensive Level 3 technical support. I currently work with a managed Keycloak IAM provider on a contract role (parttime) and also have prior IAM consulting experience.<br/><br/>
 
 I offer both one-to-one and group training programs tailored to professionals and organizations.<br/>       
                 <br/>For contact details click <a href="/#/contact" style={{ color: 'blue' }}>here</a>
                 <br/>
 
-      <br/>
+<div className="linkedin-section">
+  <span>Connect with me on </span>
+  <a 
+    href="https://www.linkedin.com/in/george-v-thomas-79487887/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <img src="/images/linkedin.png" alt="LinkedIn"/>
+  </a>
+</div>
+
+<br/><br/>
         <br/><br/>
 
             </div>

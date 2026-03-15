@@ -126,3 +126,21 @@ footer {
         margin-bottom: 10px;
     }
 }
+
+.linkedin-section {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+}
+
+.linkedin-section img {
+    width: 28px;
+    height: 28px;
+    transition: transform 0.2s ease;
+}
+
+.linkedin-section img:hover {
+    transform: scale(1.1);
+}

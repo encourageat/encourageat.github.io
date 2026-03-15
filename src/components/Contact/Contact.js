@@ -11,7 +11,7 @@ const Contact = () => {
       <div className="contact-wrapper">
 
         <div className="contact-card">
-          <p className="intro-text">Thank you for your interest.. <br/>
+          <p className="intro-text">Thank you for your interest in training or consulting engagements.<br/>
              Contact email: <p className="email">encourageat@gmail.com</p>
              For <strong>training requirements
               </strong> please go through below</p>
@@ -22,6 +22,7 @@ const Contact = () => {
             Thank you for your interest in EncourageAt training programs.
             Offer structured, hands-on IAM courses designed for students,
             working professionals, and enterprise teams.
+            <br/>IAM Beginner alumni get ₹2500 ($25) off Auth0 Intermediate or Keycloak Advanced. This additional discount applies when enrolling in any second course.
           </p>
 
           <div className="highlight-box">
@@ -60,11 +61,12 @@ const Contact = () => {
           <h3>🕒 Training Timings (IST)</h3>
 
           <div className="timing-box">
-            <p><strong>Weekdays:</strong> 9:00 AM – 11:30 PM (Flexible 1-hour sessions)</p>
+            <p><strong>Weekdays:</strong> 9:00 AM – 11:30 PM (Flexible 1- to 2-hour sessions)</p>
             <p><strong>Saturday:</strong> 7:00 AM – 5:00 PM  (Saturday only 2-hour sessions)</p>
           </div>
 
-          <p className="closing-text">
+          <p className="closing-text">Minor discounts will be available on a need basis and for group enrollments.<br/>
+          <br/>For more details on the instructor selecct <a href="/#/about" style={{ color: 'blue' }}>here</a><br/>
             Will typically respond within 24 hours with batch availability and payment instructions.<br/>
           </p>
 

@@ -20,7 +20,7 @@ const Training = () => {
       {/* ===== Training Timing ===== */}
       <div className="timing-box">
         <h3>Training Timings</h3>
-        <p><strong>Weekdays (IST):</strong> 9:00 AM – 11:30 PM (1-hour sessions)</p>
+        <p><strong>Weekdays (IST):</strong> 9:00 AM – 11:30 PM (1- to 2-hour sessions)</p>
         <p><strong>Saturday (IST):</strong> 7:00 AM – 5:00 PM (Saturday only 2-hour sessions)</p>
         <p><strong>UK Equivalent Time:</strong></p>
         <p>Weekdays: 3:30 AM – 6:00 PM (UK Time)</p>
@@ -88,9 +88,9 @@ const Training = () => {
 
               <div className="pricing">
                 <h4>Pricing</h4>
-                <p><strong>India:</strong> ₹5,000 INR</p>
-                <p><strong>Outside India:</strong> USD $80</p>
-                <p><strong>Duration:</strong> 10 to 15 hours</p>
+                <p><strong>India:</strong> ₹3,500 INR</p>
+                <p><strong>Outside India:</strong> USD $65</p>
+                <p><strong>Duration:</strong> 7 to 8 hours</p>
               </div>
 
               <Link 
@@ -153,6 +153,7 @@ const Training = () => {
                 <h4>Pricing</h4>
                 <p><strong>India:</strong> ₹7,000 INR</p>
                 <p><strong>Outside India:</strong> USD $110</p>
+                <p><strong>IAM Beginner Alumni Discount: ₹2,500 ($25)</strong></p>
                 <p><strong>Duration:</strong> 15 to 20 hours</p>
               </div>
 
@@ -199,6 +200,7 @@ const Training = () => {
                 <li>Custom Authentication Flows</li>
                 <li>SPI Development</li>
                 <li>NGINX Load Balancing</li>
+                <li>Kubernetes deployment overview</li>
               </ul>
 
               <h4>Session 4 – Advanced Integration & Observability</h4>
@@ -216,8 +218,9 @@ const Training = () => {
 
               <div className="pricing">
                 <h4>Pricing</h4>
-                <p><strong>India:</strong> ₹8,500 INR</p>
-                <p><strong>Outside India:</strong> USD $135</p>
+                <p><strong>India:</strong> ₹9,000 INR</p>
+                <p><strong>Outside India:</strong> USD $140</p>
+                <p><strong>IAM Beginner Alumni Discount: ₹2500 ($25)</strong></p>
                 <p><strong>Duration:</strong> 20 to 25 hours</p>
               </div>
 
