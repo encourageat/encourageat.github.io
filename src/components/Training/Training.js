@@ -29,6 +29,7 @@ const Training = () => {
       </div>
 
       <div className="containertr">
+        <p className="select-note"><strong>Select below for details:</strong></p>
 
         {/* ================= IAM Beginner ================= */}
         <section className="course-card">
@@ -235,6 +236,7 @@ const Training = () => {
             </div>
           )}
         </section>
+        
 
       </div>
 
@@ -252,6 +254,7 @@ const Training = () => {
           ]
         })}
       </script>
+    
 
       <Footer />
     </div>

@@ -1,17 +1,38 @@
-/* Footer container */
-.footer, h3 {
+.footer {
     color: white;
     width: 100%; 
     margin-top: auto;
-    background-color: darkblue
+    background-color: darkblue;
+    padding: 15px;
 }
-/*
-.copyright {
-    background-color: rgb(47, 47, 88);
+
+.footer h3 {
+    color: white;
 }
-*/
 
+.footer a {
+    color: lightblue;
+    text-decoration: none;
+}
 
-  
+.footer a:hover {
+    text-decoration: underline;
+}
 
-  
+.linkedin-section-white {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+}
+
+.linkedin-section-white img {
+    width: 28px;
+    height: 28px;
+    transition: transform 0.2s ease;
+}
+
+.linkedin-section-white img:hover {
+    transform: scale(1.1);
+}
