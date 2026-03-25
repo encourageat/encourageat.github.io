@@ -1,146 +1,113 @@
-/* Container to hold the sections */
-.container {
+/* Layout container */
+.about-container {
     display: flex;
-    justify-content: space-between; /* Even spacing */
-    flex-wrap: wrap; /* Allows stacking on smaller screens */
-    padding: 100px;
-}
-/*
-section {
-    background-color: #9dff00;
-    height: 600px;
-    width: 32%;
-    margin: 5px;
-}
-    */
-
-.leftsection {
-    background-size: cover;
-    background-position: center;
-    height: 400px;
-    width: 32%;
-    margin: 5px;
-    display: flex;
+    gap: 40px;
+    padding: 60px 80px;
     align-items: center;
     justify-content: center;
-    position: relative;
 }
 
-.rightsection {
-    background-size: cover;
-    background-position: center;
-    height: 400px;
-    width: 45%;
-    margin: 5px;
+/* LEFT SECTION */
+.about-left {
+    flex: 1;
     display: flex;
-    align-items: center;
     justify-content: center;
-    position: relative;
 }
 
-.card {
-    background-color: rgba(255, 255, 255, 0.8); /* Light overlay for readability */
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
-    max-width: 80%;
+/* CARD DESIGN */
+.about-card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    line-height: 1.6;
 }
 
-h2 {
-    margin: 0 0 10px 0;
+.about-card h2 {
+    margin-bottom: 15px;
+    color: #222;
 }
 
-p {
+.about-card p {
+    margin-bottom: 15px;
     font-size: 16px;
+    color: #444;
 }
 
+/* RIGHT SECTION (IMAGE) */
+.about-right {
+    flex: 1;
+    min-height: 350px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+}
+
+/* HEADER */
 header {
     background-color: whitesmoke;
-    margin: 0px 5px;    
-    height: 150px;
-}
-/*
-footer {
-    background-color: darkblue;
-    height: 150px;
-    
-}
-*/
-
-footer {
-    background-color: darkblue;
-    height: auto;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
+    margin: 0 5px;
+    height: 120px;
 }
 
-.footer-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 80%;
-    margin: 0 auto;
+/* LINK */
+.about-card a {
+    color: #0077b5;
+    text-decoration: none;
+    font-weight: 500;
 }
 
-.contact-info {
-    text-align: left;
+.about-card a:hover {
+    text-decoration: underline;
 }
 
-.social-icons a {
-    margin: 0 10px;
-    display: inline-block;
-}
-
-.social-icons img {
-    width: 30px; /* Adjust icon size */
-    height: 30px;
-    filter: brightness(0) invert(1); /* Makes dark icons white */
-}
-
-/**/
-
-
-/* Responsive design: Stack sections on smaller screens */
-@media (max-width: 768px) {
-    .container {
-        flex-direction: column; /* Stack sections vertically */
-        align-items: center; /* Center align for better appearance */
-        padding: 0px;
-    }
-    
-    .leftsection {
-        width: 90%; /* Take full width on mobile */
-    }
-
-    .rightsection {
-        width: 90%; /* Take full width on mobile */
-    }
-    .footer-content {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .contact-info {
-        margin-bottom: 10px;
-    }
-}
-
+/* LINKEDIN */
 .linkedin-section {
     margin-top: 15px;
     display: flex;
     align-items: center;
     gap: 10px;
-    font-size: 16px;
 }
 
 .linkedin-section img {
-    width: 28px;
-    height: 28px;
+    width: 30px;
+    height: 30px;
     transition: transform 0.2s ease;
 }
 
 .linkedin-section img:hover {
-    transform: scale(1.1);
+    transform: scale(1.15);
+}
+
+/* FOOTER FIX */
+footer {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* ✅ MOBILE RESPONSIVE */
+@media (max-width: 768px) {
+
+    .about-container {
+        flex-direction: column;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .about-right {
+        width: 100%;
+        min-height: 250px;
+    }
+
+    .about-card {
+        padding: 20px;
+    }
+
+    header {
+        height: auto;
+        padding: 10px;
+    }
 }

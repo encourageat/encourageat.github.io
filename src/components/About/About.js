@@ -1,58 +1,74 @@
 import './About.css'
 import PageHeader from '../../components/PageHeader/PageHeader'
-
 import Footer from '../../components/Footer/Footer'
 
-//  <PageHeader title={'About..'}/>
 const About = () => {
-
-
     return (
         <div> 
-        <header>
-        <PageHeader title={'About..'}/>
-        </header>
-        <div className="container">
-        <section className="leftsection">
-            <div>
-                  I’m George V. Thomas, the maintainer of this website. I bring over two decades of experience in the IT industry, having worked in both product-based and service-based multinational organizations in various full-time roles.<br/><br/>
+            <header>
+                <PageHeader title={'About'} />
+            </header>
 
-I am passionate about sharing knowledge and designing secure, scalable Identity and Access Management (IAM) and cloud-native solutions. My expertise includes Single Sign-On (SSO), OAuth 2.0, OpenID Connect (OIDC), SAML, and modern authentication and authorization frameworks.<br/><br/>
+            <div className="about-container">
+                
+                <section className="about-left">
+                    <div className="about-card">
 
-In the IAM domain, I have nearly 14 years of experience contributing to and enhancing an IAM product at Entrust, Canada, including extensive Level 3 technical support. I currently work with a managed Keycloak IAM provider on a contract role (parttime) and also have prior IAM consulting experience.<br/><br/>
+                        <h2>About Me</h2>
 
-I offer both one-to-one and group training programs tailored to professionals and organizations.<br/>       
-                <br/>For contact details click <a href="/#/contact" style={{ color: 'blue' }}>here</a>
-                <br/>
+                        <p>
+                            I’m <strong>George V. Thomas</strong>, the maintainer of this website. 
+                            I bring over two decades of experience in the IT industry, having worked 
+                            in both product-based and service-based multinational organizations.
+                        </p>
 
-<div className="linkedin-section">
-  <span>Connect with me on </span>
-  <a 
-    href="https://www.linkedin.com/in/george-v-thomas-79487887/"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    <img src="/images/linkedin.png" alt="LinkedIn"/>
-  </a>
-</div>
+                        <p>
+                            I specialize in designing secure, scalable Identity and Access Management (IAM) 
+                            and cloud-native solutions. My expertise includes SSO, OAuth 2.0, OpenID Connect (OIDC), 
+                            SAML, and modern authentication frameworks.
+                        </p>
 
-<br/><br/>
-        <br/><br/>
+                        <p>
+                            I have nearly 14 years of experience contributing to IAM products at Entrust, Canada, 
+                            including Level 3 technical support. Currently, I work with a managed Keycloak IAM provider 
+                            on a part-time contract role and also offer IAM consulting services.
+                        </p>
+
+                        <p>
+                            I provide <strong>one-to-one and group training programs</strong> tailored to professionals 
+                            and organizations in addition to IAM Consultancy.
+                        </p>
+
+                        <p>
+                            For contact details click 
+                            <a href="/#/contact"> here</a>
+                        </p>
+
+                        <div className="linkedin-section">
+                            <span>Connect with me:</span>
+                            <a 
+                                href="https://www.linkedin.com/in/george-v-thomas-79487887/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <img src="/images/linkedin.png" alt="LinkedIn"/>
+                            </a>
+                        </div>
+
+                    </div>
+                </section>
+
+                <section 
+                    className="about-right"
+                    style={{ backgroundImage: `url(images/about.jpg)` }}
+                >
+                </section>
 
             </div>
-        </section>
-       
 
-        <section className="rightsection" style={{ 
-            backgroundImage: `url(images/about.jpg)`
-            }}>
-            
-        </section>
-
-       
+            <Footer/>
         </div>
-        <Footer/>
-        </div>
-      );    
+    );    
 }
+
 export default About;

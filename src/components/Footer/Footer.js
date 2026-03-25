@@ -11,7 +11,7 @@ const Footer = () => {
           
           <p>
             <div className="linkedin-section-white">
-  <span>Connect with me on </span>
+  <span>Connect with me: </span>
   <a 
     href="https://www.linkedin.com/in/george-v-thomas-79487887/"
     target="_blank"
