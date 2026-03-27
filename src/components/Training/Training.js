@@ -115,14 +115,14 @@ const Training = () => {
 
           {openCourse === 'auth0' && (
             <div className="course-content">
-              <h4>Session 1 – IAM fundamentals</h4>
+              <h4>Session 1 – IAM Fundamentals</h4>
               <ul>
                 <li>IAM Concepts</li>
                 <li>Authentication and Authorization</li>
                 <li>OAuth, OpenID Connect, JWT, SAML, SSO</li>
                 <li>Token Structure & Validation</li>
               </ul>
-              <h4>Session 2 – Auth0 fundamentals</h4>
+              <h4>Session 2 – Auth0 Fundamentals</h4>
               <ul>
                 <li>Auth0 Architecture</li>
                 <li>Tenant, Applications & APIs</li>
