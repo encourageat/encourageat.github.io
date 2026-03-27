@@ -115,46 +115,80 @@ const Training = () => {
 
           {openCourse === 'auth0' && (
             <div className="course-content">
-
-              <h4>Session 1 – Introduction to Auth0</h4>
+              <h4>Session 1 – IAM fundamentals</h4>
+              <ul>
+                <li>IAM Concepts</li>
+                <li>Authentication and Authorization</li>
+                <li>OAuth, OpenID Connect, JWT, SAML, SSO</li>
+                <li>Token Structure & Validation</li>
+              </ul>
+              <h4>Session 2 – Auth0 fundamentals</h4>
               <ul>
                 <li>Auth0 Architecture</li>
                 <li>Tenant, Applications & APIs</li>
+                <li>Connections - DB, Social, Enterprise</li>
                 <li>Universal Login</li>
+                <li>Auth0 Dashboard Walkthrough</li>
               </ul>
 
-              <h4>Session 2 – Authentication with Auth0</h4>
+              <h4>Session 3 – Authentication Flows</h4>
               <ul>
-                <li>Authorization Code Flow</li>
+                <li>Authorization Code + PKCE</li>
+                <li>Client Credentials Flow</li>
                 <li>ID Token vs Access Token</li>
                 <li>Refresh Tokens</li>
               </ul>
 
-              <h4>Session 3 – Application Integration</h4>
+              <h4>Session 4 – Application Integration</h4>
               <ul>
                 <li>SPA Integration</li>
                 <li>Backend API Protection</li>
                 <li>RBAC in Auth0</li>
+                <li>Session Management & Logout</li>
+                <li>SSO Behavior</li>
               </ul>
 
-              <h4>Session 4 – Advanced Features</h4>
+              <h4>Session 5 – Identity Federation & Security</h4>
               <ul>
                 <li>Social Login</li>
-                <li>Enterprise Connections</li>
-                <li>MFA & Passwordless</li>
+                <li>Enterprise Connections - SAML/OIDC</li>
+                <li>SAML integrations with Okta or Keycloak</li>
+                <li>MFA & Passkeys</li>
+                <li>Security Best Practices</li>
               </ul>
 
-              <h4>Session 5 – Extensibility</h4>
+              <h4>Session 6 – Extensibility</h4>
               <ul>
-                <li>Rules & Actions</li>
+                <li>Actions & Triggers</li>
                 <li>Custom Claims</li>
+                <li>Hooks into Authentication Flow</li>
+                <li>Real-world Customization Use Cases</li>
+              </ul>
+              <h4>Session 7 – DevOps & Automation</h4>
+              <ul>
+                <li>Auth0 Terraform Provider</li>
+                <li>Deploy CLI</li>
+                <li>CI/CD with GitHub Actions</li>
+                <li>Environment Promotion Strategy</li>
+                <li>Secrets Management</li>
+              </ul>
+              <h4>Session 8 – Observability and Troubleshooting</h4>
+              <ul>
+                <li>Logs & Monitoring</li>
+                <li>Debugging Authentication Issues</li>
+                <li>Token Inspection</li>
+              </ul>
+              <h4>Session 9 – Capstone Project</h4>
+              <ul>
+                <li>Building a production grade multi-app setup</li>
+                <li>Full CI/CD Pipeline</li>
               </ul>
 
               <div className="pricing">
                 <h4>Pricing</h4>
                 <p><strong>India:</strong> ₹7,000 INR</p>
                 <p><strong>Outside India:</strong> USD $110</p>
-                <p><strong>IAM Beginner Alumni Discount: ₹2,500 ($25)</strong></p>
+                <p><strong>Additional IAM Beginner Alumni Discount: ₹2,500 ($25)</strong></p>
                 <p><strong>Duration:</strong> 15 to 20 hours</p>
               </div>
 
@@ -181,47 +215,72 @@ const Training = () => {
           {openCourse === 'keycloak' && (
             <div className="course-content">
 
-              <h4>Session 1 – Introduction & Setup</h4>
+              <h4>Session 1 – IAM fundamentals & Keycloak Setup</h4>
               <ul>
                 <li>IAM Overview</li>
-                <li>SSO, OAuth 2.0, OIDC, JWT</li>
-                <li>Install Keycloak with Docker</li>
+                <li>OAuth, OIDC, JWT, SAML, SSO</li>
+                <li>Keycloak overview</li>
+                <li>Realms, Clients, Users, Roles</li>
+                <li>Install Keycloak</li>
                 <li>PostgreSQL Integration</li>
               </ul>
 
-              <h4>Session 2 – Applications & Federation</h4>
+              <h4>Session 2 – Applications Integration</h4>
               <ul>
-                <li>SPA & Backend Integration</li>
-                <li>MFA</li>
+                <li>SPA Integration- PKCE</li>
+                <li>Backend- Confidential clients</li>
+                <li>Token handling & security</li>
+                <li>Client Scopes and Roles</li>
                 <li>LDAP Federation</li>
               </ul>
-
-              <h4>Session 3 – Customization & Deployment</h4>
+              <h4>Session 3 – Identity Federation & Security</h4>
+              <ul>
+                <li>LDAP/AD integration</li>
+                <li>User Federation Strategies</li>
+                <li>MFA and passkeys</li>
+                <li>Security best practices</li>
+              </ul>
+              <h4>Session 4 – Customization & Extensibility</h4>
               <ul>
                 <li>Custom Authentication Flows</li>
-                <li>SPI Development</li>
-                <li>NGINX Load Balancing</li>
-                <li>Kubernetes deployment overview</li>
+                <li>Token Customization</li>
+                <li>Custom SPI Developement</li>
+                <li>SCIM and Third-party extensions</li>
               </ul>
-
-              <h4>Session 4 – Advanced Integration & Observability</h4>
+              <h4>Session 5 – Deployment & Scaling</h4>
               <ul>
-                <li>SAML</li>
-                <li>IDP Brokering</li>
-                <li>Prometheus Observability</li>
+                <li>Reverse Proxy with NGINX</li>
+                <li>Docker & Kubernetes Deployment</li>
+                <li>High Availability & Scaling Strategies</li>
               </ul>
 
-              <h4>Session 5 – Configuration as Code</h4>
+              <h4>Session 6 – Advanced IAM & Observability</h4>
+              <ul>
+                <li>IDP Brokering: OIDC/SAML</li>
+                <li>Social login, SAML and OIDC login with Auth0 or Okta</li>
+                <li>Organization</li>
+                <l>Themes</l>
+                <li>Prometheus, Grafana Monitoring</li>
+                <li>Logging & Troubleshooting</li>
+              </ul>
+
+              <h4>Session 7 – Configuration as Code & Automation</h4>
               <ul>
                 <li>Realm Import/Export</li>
-                <li>Terraform Automation</li>
+                <li>Terraform with Keycloak</li>
+                <li>CI/CD with GitHub Actions</li>
+                <li>Secrets Management Best Practices</li>
+              </ul>
+              <h4>Session 8 – Capstone Project</h4>
+              <ul>
+                <li>Building a production grade multi-app setup</li>
               </ul>
 
               <div className="pricing">
                 <h4>Pricing</h4>
                 <p><strong>India:</strong> ₹9,000 INR</p>
                 <p><strong>Outside India:</strong> USD $140</p>
-                <p><strong>IAM Beginner Alumni Discount: ₹2500 ($25)</strong></p>
+                <p><strong>Additional IAM Beginner Alumni Discount: ₹2500 ($25)</strong></p>
                 <p><strong>Duration:</strong> 20 to 25 hours</p>
               </div>
 
