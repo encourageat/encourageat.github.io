@@ -91,3 +91,19 @@
   
 }
 
+.consulting-box {
+  width: 85%;
+  margin: 30px auto;
+  padding: 25px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.consulting-box h2 {
+  margin-bottom: 10px;
+}
+
+.consulting-box h4 {
+  margin-top: 20px;
+}

@@ -11,63 +11,38 @@ const Contact = () => {
       <div className="contact-wrapper">
 
         <div className="contact-card">
-          <p className="intro-text">Thank you for your interest in training or consulting engagements.<br/>
-             Contact Details: <p>Send email to:</p> <p className="email">encourageat@gmail.com</p><p><strong>OR</strong></p>
-             
-<div className="linkedin-section">
-  <span>Connect with me: </span>
-  <a 
-    href="https://www.linkedin.com/in/george-v-thomas-79487887/"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    <img src="/images/linkedin.png" alt="LinkedIn"/>
-  </a>
-</div>
-             For <strong>training requirements,
-              </strong> please go through below</p>
 
-          
+          <h2>Contact Details</h2>
 
           <p className="intro-text">
-            IAM Beginner alumni get ₹2500 ($25) off for Auth0 Intermediate or Keycloak Advanced training programs. This additional discount applies when enrolling in any second course.
+            Thank you for your interest in my services.
+            <br />
+            For consulting, custom development, or training inquiries, feel free to reach out.
           </p>
 
+          <div className="contact-section">
+            <p className="label">Email</p>
+            <p className="email">encourageat@gmail.com</p>
+          </div>
 
-          <h3>🎓 Available Courses</h3>
+          <div className="or-divider">OR</div>
 
-          <div className="course-list">
-            <div className="course-item">
-              <h4>IAM – Beginner</h4>
-            </div>
+          <div className="contact-section">
+            <p className="label">Connect with me</p>
 
-            <div className="course-item">
-              <h4>Auth0 – Intermediate</h4>
-            </div>
-
-            <div className="course-item">
-              <h4>Keycloak – Advanced</h4>
+            <div className="linkedin-section">
+              <a
+                href="https://www.linkedin.com/in/george-v-thomas-79487887/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="/images/linkedin.png" alt="LinkedIn" />
+              </a>
             </div>
           </div>
 
-          <h3>🕒 Training Timings (IST)</h3>
-
-          <div className="timing-box">
-            <p><strong>Weekdays:</strong> 9:00 AM – 11:30 PM (Flexible 1- to 2-hour sessions)</p>
-            <p><strong>Saturday:</strong> 7:00 AM – 5:00 PM  (Saturday only 2-hour sessions)</p>
-          </div>
-          
-          <h3>Details required for registration:</h3>
-
-          <ul className="details-list">
-            <li>✔ Name</li>
-            <li>✔ Country of Residence</li>
-            <li>✔ Course Name</li>
-            <li>✔ Preferred Timing (Weekday / Saturday)</li>
-          </ul>
-
-          <p className="closing-text">Minor discounts will be available on a need basis and for group enrollments.<br/>
-            Will typically respond within 24 hours with details.<br/>
+          <p className="closing-text">
+            I typically respond within 24 hours.
           </p>
 
         </div>

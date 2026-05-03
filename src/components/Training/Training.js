@@ -15,16 +15,55 @@ const Training = () => {
   return (
     <div className="Training">
 
-      <PageHeader title={'IAM & Keycloak Training Programs'} />
+      <PageHeader title={'IAM Consulting, Development & Training'} />
+            {/* ===== Consulting & Development ===== */}
+      <div className="consulting-box">
+
+        <h2>Consulting & Custom Software Development</h2>
+
+        <p>
+          I provide expert consulting and custom development services in Identity and Access Management (IAM),
+          helping organizations design, implement, and scale secure authentication and authorization systems.
+        </p>
+
+        <h4>Core Expertise</h4>
+        <ul>
+          <li>Keycloak – Implementation, customization, and scaling</li>
+          <li>Okta – Integration, workflows, and enterprise IAM design</li>
+          <li>Auth0 – Secure application integration and extensibility</li>
+        </ul>
+
+        <h4>Services Offered</h4>
+        <ul>
+          <li>End-to-end IAM architecture design</li>
+          <li>SSO, MFA, OAuth2/OIDC implementations</li>
+          <li>Migration from legacy authentication systems</li>
+          <li>Custom authentication flows and token customization</li>
+          <li>CI/CD and Infrastructure as Code (Terraform)</li>
+          <li>Production troubleshooting and performance tuning</li>
+        </ul>
+
+        <h4>Engagement Model</h4>
+        <ul>
+          <li>Freelance consulting</li>
+          <li>Short-term projects</li>
+          <li>Architecture reviews</li>
+          <li>Mentoring & team enablement</li>
+        </ul>
+
+        <Link to="/contact" className="enroll-btn">
+          Get in Touch
+        </Link>
+
+      </div>
+
+      <p className="select-note"><strong>Training Details</strong></p>
 
       {/* ===== Training Timing ===== */}
       <div className="timing-box">
         <h3>Training Timings</h3>
         <p><strong>Weekdays (IST):</strong> 9:00 AM – 11:30 PM (1- to 2-hour sessions)</p>
         <p><strong>Saturday (IST):</strong> 7:00 AM – 5:00 PM (Saturday only 2-hour sessions)</p>
-        <p><strong>UK Equivalent Time:</strong></p>
-        <p>Weekdays: 3:30 AM – 6:00 PM (UK Time)</p>
-        <p>Saturday: 1:30 AM – 11:30 AM (UK Time)</p>
         <p><strong>Mode of Instruction:</strong> Online</p>
       </div>
 
@@ -91,7 +130,7 @@ const Training = () => {
                 <h4>Pricing</h4>
                 <p><strong>India:</strong> ₹3,500 INR</p>
                 <p><strong>Outside India:</strong> USD $65</p>
-                <p><strong>Duration:</strong> 7 to 8 hours</p>
+                <p><strong>Duration:</strong> 6 to 7 hours</p>
               </div>
 
               <Link 
@@ -326,4 +365,9 @@ export default Training
    <a className="enroll-btn" href="mailto:encourageat@gmail.com?subject=Enrollment%20-%20IAM%20Beginner">
                 Enroll Now
               </a>
+
+
+<p><strong>UK Equivalent Time:</strong></p>
+        <p>Weekdays: 3:30 AM – 6:00 PM (UK Time)</p>
+        <p>Saturday: 1:30 AM – 11:30 AM (UK Time)</p>
 */
