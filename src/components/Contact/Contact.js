@@ -6,23 +6,21 @@ const Contact = () => {
   return (
     <div>
 
-      <PageHeader title={"Contact & Enrollment"} />
+      <PageHeader title={"Contact Details.."} />
 
       <div className="contact-wrapper">
 
         <div className="contact-card">
 
-          <h2>Contact Details</h2>
-
           <p className="intro-text">
             Thank you for your interest in my services.
             <br />
-            For consulting, custom development, or training inquiries, feel free to reach out.
           </p>
 
+          <h2>Contact Details</h2>
           <div className="contact-section">
             <p className="label">Email</p>
-            <p className="email">encourageat@gmail.com</p>
+            <a className="email" href="mailto:encourageat@gmail.com">encourageat@gmail.com</a>
           </div>
 
           <div className="or-divider">OR</div>

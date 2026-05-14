@@ -6,7 +6,7 @@ const About = () => {
     return (
         <div> 
             <header>
-                <PageHeader title={'About'} />
+                <PageHeader title={'About..'} />
             </header>
 
             <div className="about-container">
@@ -31,7 +31,7 @@ const About = () => {
                         <p>
                             I have nearly 14 years of experience contributing to IAM products at Entrust, Canada, 
                             including Level 3 technical support. Currently, I work with a managed Keycloak IAM provider 
-                            on a part-time contract role and also offer IAM consulting services.
+                            on a contract role.
                         </p>
 
                         <p>

@@ -25,11 +25,12 @@
   width: 85%;
   margin: auto;
   padding: 40px 0;
+   background: #eef6ff;
 }
 
 .course-card {
   margin-bottom: 30px;
-  background: #ffffff;
+   background: #eef6ff;
   border-radius: 8px;
   box-shadow: 0 3px 10px rgba(0,0,0,0.08);
   overflow: hidden;
@@ -37,10 +38,11 @@
 
 .course-header {
   padding: 20px;
-  background-color: #f4f6f8;
+  background-color: cornflowerblue;
   display: flex;
   justify-content: space-between;
   cursor: pointer;
+  color: white;
 }
 
 .course-header h2 {
@@ -91,13 +93,15 @@
   
 }
 
+
+
 .consulting-box {
   width: 85%;
   margin: 30px auto;
   padding: 25px;
-  background: #ffffff;
   border-radius: 8px;
-  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+  background: #eef6ff;
+  border-radius: 8px;
 }
 
 .consulting-box h2 {

@@ -48,7 +48,6 @@ const App = () => {
       <Route path="/about" exact element={<About/>}/>
       <Route path='/contact' element={<Contact/>} />
       <Route path='/services' element={<Services/>} />
-      <Route path='/blog' element={<Blog/>} />
       <Route path="/" exact element={<Training/>}/>
       </Routes>
     </div>
@@ -56,6 +55,6 @@ const App = () => {
 }
 
 
-
+/* <Route path='/blog' element={<Blog/>} />*/
 
 export default App;

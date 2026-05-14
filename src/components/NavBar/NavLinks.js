@@ -15,9 +15,6 @@ const NavLinks = (props) => {
             <li onClick = {() =>props.isMobile && props.closeMobileMenu()}>
                 <a href="/#/services">Services</a>
             </li>
-            <li onClick = {() =>props.isMobile && props.closeMobileMenu()}>
-                <a href="/#/blog">Blog</a>
-            </li>
              <li onClick = {() =>props.isMobile && props.closeMobileMenu()}>
                 <a href="/#/contact">Contact</a>
             </li>
@@ -28,6 +25,10 @@ const NavLinks = (props) => {
 export default NavLinks;
 
 /*
+
+ <li onClick = {() =>props.isMobile && props.closeMobileMenu()}>
+                <a href="/#/blog">Blog</a>
+            </li>
 
  <li onClick = {() =>props.isMobile && props.closeMobileMenu()}>
                 <a href="/#/about">About</a>

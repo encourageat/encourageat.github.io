@@ -1,6 +1,17 @@
 .Pageheader {
     text-align: left;
-    color: blue;
-    padding-left: 8%;
-    padding: 65px;
+    color: white;
+    padding-left: 0%;
+    padding: 55px;
+    padding-right:0%;
+    width: 100%;
+    background-color: lightskyblue;
+    
 }
+
+/*
+
+ background-color: lightskyblue;
+ background-color: cornflowerblue;
+
+ */

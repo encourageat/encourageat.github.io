@@ -15,28 +15,34 @@ const Training = () => {
   return (
     <div className="Training">
 
-      <PageHeader title={'IAM Consulting, Development & Training'} />
+      <PageHeader title={'IAM Consulting, Training & Development'} />
             {/* ===== Consulting & Development ===== */}
       <div className="consulting-box">
 
-        <h2>Consulting & Custom Software Development</h2>
+        <h2>Consulting, Training & Custom Software Development</h2>
 
         <p>
           I provide expert consulting and custom development services in Identity and Access Management (IAM),
           helping organizations design, implement, and scale secure authentication and authorization systems.
         </p>
 
-        <h4>Core Expertise</h4>
+        <h4>Primary IAM Expertise</h4>
         <ul>
-          <li>Keycloak – Implementation, customization, and scaling</li>
-          <li>Okta – Integration, workflows, and enterprise IAM design</li>
-          <li>Auth0 – Secure application integration and extensibility</li>
+          <li>Keycloak</li>
+        </ul>
+        <h4>Additional IAM Expertise</h4>
+        <ul>
+          <li>Okta</li>
+          <li>Auth0</li>
+          <li>Entrust GetAccess</li>
         </ul>
 
         <h4>Services Offered</h4>
         <ul>
-          <li>End-to-end IAM architecture design</li>
-          <li>SSO, MFA, OAuth2/OIDC implementations</li>
+          <li>End-to-end <strong>IAM architecture</strong> design</li>
+          <li>SSO, MFA, OAuth2/OIDC, SCIM implementations</li>
+          <li>Keycloak Consulting</li>
+          <li>Integrations Keycloak, Okta, Auth0</li>
           <li>Migration from legacy authentication systems</li>
           <li>Custom authentication flows and token customization</li>
           <li>CI/CD and Infrastructure as Code (Terraform)</li>
@@ -48,7 +54,8 @@ const Training = () => {
           <li>Freelance consulting</li>
           <li>Short-term projects</li>
           <li>Architecture reviews</li>
-          <li>Mentoring & team enablement</li>
+          <li>Mentoring, Corporate Training & team enablement</li>
+          <li>Corporate & Individual IAM Training</li>
         </ul>
 
         <Link to="/contact" className="enroll-btn">
@@ -283,7 +290,7 @@ const Training = () => {
               <ul>
                 <li>Custom Authentication Flows</li>
                 <li>Token Customization</li>
-                <li>Custom SPI Developement</li>
+                <li>Custom SPI Development</li>
                 <li>SCIM and Third-party extensions</li>
               </ul>
               <h4>Session 5 – Deployment & Scaling</h4>
