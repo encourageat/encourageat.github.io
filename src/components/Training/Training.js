@@ -22,7 +22,7 @@ const Training = () => {
         <h2>Consulting, Training & Custom Software Development</h2>
 
         <p>
-          I provide expert consulting and custom development services in Identity and Access Management (IAM),
+          I provide expert consulting,training and custom development services in Identity and Access Management (IAM),
           helping organizations design, implement, and scale secure authentication and authorization systems.
         </p>
 
@@ -39,7 +39,7 @@ const Training = () => {
 
         <h4>Services Offered</h4>
         <ul>
-          <li>End-to-end <strong>IAM architecture</strong> design</li>
+          <li>IAM architecture</li>
           <li>SSO, MFA, OAuth2/OIDC, SCIM implementations</li>
           <li>Keycloak Consulting</li>
           <li>Integrations Keycloak, Okta, Auth0</li>
@@ -47,6 +47,7 @@ const Training = () => {
           <li>Custom authentication flows and token customization</li>
           <li>CI/CD and Infrastructure as Code (Terraform)</li>
           <li>Production troubleshooting and performance tuning</li>
+          <li>Corporate & Individual IAM Training</li>
         </ul>
 
         <h4>Engagement Model</h4>
@@ -55,7 +56,7 @@ const Training = () => {
           <li>Short-term projects</li>
           <li>Architecture reviews</li>
           <li>Mentoring, Corporate Training & team enablement</li>
-          <li>Corporate & Individual IAM Training</li>
+          
         </ul>
 
         <Link to="/contact" className="enroll-btn">
@@ -66,13 +67,23 @@ const Training = () => {
 
       <p className="select-note"><strong>Training Details</strong></p>
 
-      {/* ===== Training Timing ===== */}
-      <div className="timing-box">
-        <h3>Training Timings</h3>
-        <p><strong>Weekdays (IST):</strong> 9:00 AM – 11:30 PM (1- to 2-hour sessions)</p>
-        <p><strong>Saturday (IST):</strong> 7:00 AM – 5:00 PM (Saturday only 2-hour sessions)</p>
-        <p><strong>Mode of Instruction:</strong> Online</p>
-      </div>
+    <div className="timing-box">
+      <h3>Training Timings</h3>
+
+      <p>
+        <strong>Weekday Training (Monday–Friday):</strong><br />
+        Flexible online sessions with 1- to 2-hour classes or short-term intensive training programs.
+      </p>
+
+      <p>
+        <strong>Weekend Training:</strong><br />
+        Saturday-only sessions are available for working professionals and corporate batches.
+      </p>
+
+      <p>
+        <strong>Mode of Instruction:</strong> Online
+      </p>
+    </div>
 
       <div className="containertr">
         <p className="select-note"><strong>Select below for details:</strong></p>
@@ -80,7 +91,7 @@ const Training = () => {
         {/* ================= IAM Beginner ================= */}
         <section className="course-card">
           <div className="course-header" onClick={() => toggleCourse('iam')}>
-            <h2>IAM – Beginner</h2>
+            <h2>IAM – Beginner (generic IAM fundamentals)</h2>
             <span>{openCourse === 'iam' ? '−' : '+'}</span>
           </div>
 
@@ -135,8 +146,8 @@ const Training = () => {
 
               <div className="pricing">
                 <h4>Pricing</h4>
-                <p><strong>India:</strong> ₹3,500 INR</p>
-                <p><strong>Outside India:</strong> USD $65</p>
+                <p><strong>India:</strong> ₹4500 INR</p>
+                <p><strong>Outside India:</strong> USD $70</p>
                 <p><strong>Duration:</strong> 6 to 7 hours</p>
               </div>
 
@@ -150,12 +161,190 @@ const Training = () => {
             </div>
           )}
         </section>
+        {/* ================= Keycloak IAM Beginner ================= */}
+        <section className="course-card">
+          <div className="course-header" onClick={() => toggleCourse('kcBeginner')}>
+            <h2>Keycloak IAM – Beginner</h2>
+            <span>{openCourse === 'kcBeginner' ? '−' : '+'}</span>
+          </div>
 
+          {openCourse === 'kcBeginner' && (
+            <div className="course-content">
 
+              <h4>Session 1 – IAM Fundamentals & Keycloak Introduction</h4>
+              <ul>
+                <li>Introduction to IAM</li>
+                <li>OAuth 2.0, OIDC, JWT, SAML and SSO</li>
+                <li>Keycloak Overview</li>
+                <li>Realms, Clients, Users and Roles</li>
+                <li>Standalone Keycloak Installation</li>
+              </ul>
+
+              <h4>Session 2 – Keycloak Installation & OAuth Foundations</h4>
+              <ul>
+                <li>Keycloak with Docker</li>
+                <li>PostgreSQL Integration</li>
+                <li>OAuth 2.0 Grant Types</li>
+                <li>Client Credentials Flow using curl</li>
+                <li>Accessing Admin REST APIs</li>
+              </ul>
+
+              <h4>Session 3 – OIDC Flows & Token Management</h4>
+              <ul>
+                <li>Authorization Code Flow</li>
+                <li>Authorization Code with PKCE</li>
+                <li>Scopes and Claims</li>
+                <li>Access, ID and Refresh Tokens</li>
+                <li>Protocol Mappers</li>
+                <li>JWT Token Validation</li>
+              </ul>
+
+              <h4>Session 4 – Authentication Flows & MFA</h4>
+              <ul>
+                <li>Authentication Flows</li>
+                <li>MFA Configuration</li>
+                <li>Custom Authentication Flows</li>
+                <li>OIDC Flow Demonstrations</li>
+              </ul>
+
+              <h4>Session 5 – Identity Federation & Social Login</h4>
+              <ul>
+                <li>Social Login</li>
+                <li>Identity Provider Integration</li>
+                <li>OIDC Identity Brokering</li>
+              </ul>
+
+              <div className="pricing">
+                <h4>Pricing</h4>
+                <p><strong>India:</strong> ₹6,500 INR</p>
+                <p><strong>Outside India:</strong> USD $95</p>
+                <p><strong>Duration:</strong> 10 to 12 hours</p>
+              </div>
+
+              <Link to="/contact" className="enroll-btn">
+                Enroll Now
+              </Link>
+
+            </div>
+          )}
+        </section>
+        {/* ================= Keycloak IAM Intermediate ================= */}
+        <section className="course-card">
+          <div className="course-header" onClick={() => toggleCourse('kcIntermediate')}>
+            <h2>Keycloak IAM – Intermediate</h2>
+            <span>{openCourse === 'kcIntermediate' ? '−' : '+'}</span>
+          </div>
+
+          {openCourse === 'kcIntermediate' && (
+            <div className="course-content">
+
+              <h4>Session 1 – SAML Integration & External Identity Providers</h4>
+              <ul>
+                <li>SAML-based SSO</li>
+                <li>SAML Integration with Keycloak</li>
+                <li>Auth0 and Okta as Identity Providers</li>
+                <li>Identity Brokering</li>
+              </ul>
+
+              <h4>Session 2 – Organizations & Multi-Tenant IAM</h4>
+              <ul>
+                <li>Organizations Feature</li>
+                <li>Multi-tenant IAM Concepts</li>
+                <li>Organization-based Access Control</li>
+                <li>Passkeys and passwordless authentication</li>
+              </ul>
+
+              <h4>Session 3 – User Lifecycle & Provisioning</h4>
+              <ul>
+                <li>Workflow Demonstrations</li>
+                <li>SCIM Overview</li>
+                <li>User Provisioning Concepts</li>
+                <li>Realm Export and Import</li>
+              </ul>
+
+              <h4>Session 4 – High Availability & Load Balancing</h4>
+              <ul>
+                <li>NGINX Reverse Proxy</li>
+                <li>Multiple Keycloak Instances</li>
+                <li>Load Balancing</li>
+                <li>High Availability Concepts</li>
+              </ul>
+
+              <h4>Session 5 – Federation & Enterprise Integration</h4>
+              <ul>
+                <li>JWT Bearer Grant Flow</li>
+                <li>LDAP/AD Federation</li>
+                <li>Federation Strategies</li>
+                <li>Advanced REST API Usage</li>
+              </ul>
+
+              <div className="pricing">
+                <h4>Pricing</h4>
+                <p><strong>India:</strong> ₹8,500 INR</p>
+                <p><strong>Outside India:</strong> USD $125</p>
+                <p><strong>Duration:</strong> 14 to 16 hours</p>
+              </div>
+
+              <Link to="/contact" className="enroll-btn">
+                Enroll Now
+              </Link>
+
+            </div>
+          )}
+        </section> 
+        {/* ================= Keycloak IAM Advanced ================= */}
+        <section className="course-card">
+          <div className="course-header" onClick={() => toggleCourse('kcAdvanced')}>
+            <h2>Keycloak IAM – Advanced</h2>
+            <span>{openCourse === 'kcAdvanced' ? '−' : '+'}</span>
+          </div>
+
+          {openCourse === 'kcAdvanced' && (
+            <div className="course-content">
+
+              <h4>Session 1 – Infrastructure as Code with Terraform</h4>
+              <ul>
+                <li>Terraform Overview</li>
+                <li>Infrastructure as Code Concepts</li>
+                <li>Managing Keycloak using Terraform</li>
+                <li>Automating Realms, Clients and Roles</li>
+              </ul>
+
+              <h4>Session 2 – Kubernetes Deployment & Production Architecture</h4>
+              <ul>
+                <li>Keycloak Deployment in Kubernetes</li>
+                <li>Minikube and K3s</li>
+                <li>Scaling Strategies</li>
+                <li>Secrets Management</li>
+              </ul>
+
+              <h4>Session 3 – Observability, Monitoring & Troubleshooting</h4>
+              <ul>
+                <li>Observability Concepts</li>
+                <li>Prometheus and Grafana</li>
+                <li>Logging and Monitoring</li>
+                <li>Troubleshooting Production Issues</li>
+              </ul>
+
+              <div className="pricing">
+                <h4>Pricing</h4>
+                <p><strong>India:</strong> ₹6,000 INR</p>
+                <p><strong>Outside India:</strong> USD $90</p>
+                <p><strong>Duration:</strong> 8 to 10 hours</p>
+                <p>This is an upcoming course. As of now not available.</p>
+              </div>
+
+              <Link to="/contact" className="enroll-btn">
+                Enroll Now
+              </Link>
+
+            </div>
+          )}
+        </section>
         {/* ================= Auth0 Intermediate ================= */}
         <section className="course-card">
           <div className="course-header" onClick={() => toggleCourse('auth0')}>
-            <h2>Auth0 – Intermediate</h2>
+            <h2>Auth0 – Intermediate (optional/specialized)</h2>
             <span>{openCourse === 'auth0' ? '−' : '+'}</span>
           </div>
 
@@ -234,8 +423,7 @@ const Training = () => {
                 <h4>Pricing</h4>
                 <p><strong>India:</strong> ₹7,000 INR</p>
                 <p><strong>Outside India:</strong> USD $110</p>
-                <p><strong>Additional IAM Beginner Alumni Discount: ₹2,500 ($25)</strong></p>
-                <p><strong>Duration:</strong> 15 to 20 hours</p>
+                <p><strong>Duration:</strong> 14 to 16 hours</p>
               </div>
 
               <Link 
@@ -249,99 +437,6 @@ const Training = () => {
             </div>
           )}
         </section>
-
-
-        {/* ================= Keycloak Advanced ================= */}
-        <section className="course-card">
-          <div className="course-header" onClick={() => toggleCourse('keycloak')}>
-            <h2>Keycloak – Advanced</h2>
-            <span>{openCourse === 'keycloak' ? '−' : '+'}</span>
-          </div>
-
-          {openCourse === 'keycloak' && (
-            <div className="course-content">
-
-              <h4>Session 1 – IAM fundamentals & Keycloak Setup</h4>
-              <ul>
-                <li>IAM Overview</li>
-                <li>OAuth, OIDC, JWT, SAML, SSO</li>
-                <li>Keycloak overview</li>
-                <li>Realms, Clients, Users, Roles</li>
-                <li>Install Keycloak</li>
-                <li>PostgreSQL Integration</li>
-              </ul>
-
-              <h4>Session 2 – Applications Integration</h4>
-              <ul>
-                <li>SPA Integration- PKCE</li>
-                <li>Backend- Confidential clients</li>
-                <li>Token handling & security</li>
-                <li>Client Scopes and Roles</li>
-                <li>LDAP Federation</li>
-              </ul>
-              <h4>Session 3 – Identity Federation & Security</h4>
-              <ul>
-                <li>LDAP/AD integration</li>
-                <li>User Federation Strategies</li>
-                <li>MFA and passkeys</li>
-                <li>Security best practices</li>
-              </ul>
-              <h4>Session 4 – Customization & Extensibility</h4>
-              <ul>
-                <li>Custom Authentication Flows</li>
-                <li>Token Customization</li>
-                <li>Custom SPI Development</li>
-                <li>SCIM and Third-party extensions</li>
-              </ul>
-              <h4>Session 5 – Deployment & Scaling</h4>
-              <ul>
-                <li>Reverse Proxy with NGINX</li>
-                <li>Docker & Kubernetes Deployment</li>
-                <li>High Availability & Scaling Strategies</li>
-              </ul>
-
-              <h4>Session 6 – Advanced IAM & Observability</h4>
-              <ul>
-                <li>IDP Brokering: OIDC/SAML</li>
-                <li>Social login, SAML and OIDC login with Auth0 or Okta</li>
-                <li>Organization</li>
-                <l>Themes</l>
-                <li>Prometheus, Grafana Monitoring</li>
-                <li>Logging & Troubleshooting</li>
-              </ul>
-
-              <h4>Session 7 – Configuration as Code & Automation</h4>
-              <ul>
-                <li>Realm Import/Export</li>
-                <li>Terraform with Keycloak</li>
-                <li>CI/CD with GitHub Actions</li>
-                <li>Secrets Management Best Practices</li>
-              </ul>
-              <h4>Session 8 – Capstone Project</h4>
-              <ul>
-                <li>Building a production grade multi-app setup</li>
-              </ul>
-
-              <div className="pricing">
-                <h4>Pricing</h4>
-                <p><strong>India:</strong> ₹9,000 INR</p>
-                <p><strong>Outside India:</strong> USD $140</p>
-                <p><strong>Additional IAM Beginner Alumni Discount: ₹2500 ($25)</strong></p>
-                <p><strong>Duration:</strong> 20 to 25 hours</p>
-              </div>
-
-              <Link 
-                    to="/contact" 
-                    className="enroll-btn"
-                  >
-                    Enroll Now
-              </Link>
-
-
-            </div>
-          )}
-        </section>
-        
 
       </div>
 
@@ -354,8 +449,10 @@ const Training = () => {
           "url": "https://www.encourageat.com",
           "hasCourse": [
             { "@type": "Course", "name": "IAM – Beginner" },
-            { "@type": "Course", "name": "Auth0 – Intermediate" },
-            { "@type": "Course", "name": "Keycloak – Advanced" }
+            { "@type": "Course", "name": "Keycloak IAM – Beginner" },
+            { "@type": "Course", "name": "Keycloak IAM – Intermediate" },
+            { "@type": "Course", "name": "Keycloak IAM – Advanced" },
+            { "@type": "Course", "name": "Auth0 – Intermediate" }
           ]
         })}
       </script>

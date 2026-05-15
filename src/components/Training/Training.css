@@ -34,6 +34,7 @@
   border-radius: 8px;
   box-shadow: 0 3px 10px rgba(0,0,0,0.08);
   overflow: hidden;
+  transition: transform 0.2s ease;
 }
 
 .course-header {
@@ -43,6 +44,11 @@
   justify-content: space-between;
   cursor: pointer;
   color: white;
+  transition: 0.3s ease;
+}
+
+.course-card:hover {
+  transform: translateY(-2px);
 }
 
 .course-header h2 {
