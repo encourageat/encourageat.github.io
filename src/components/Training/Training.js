@@ -77,7 +77,7 @@ const Training = () => {
 
       <p>
         <strong>Weekend Training:</strong><br />
-        Saturday-only sessions are available for working professionals and corporate batches.
+        Saturday-only sessions are also available for working professionals.
       </p>
 
       <p>
