@@ -39,9 +39,9 @@ const Training = () => {
 
         <h4>Services Offered</h4>
         <ul>
-          <li>IAM architecture</li>
-          <li>SSO, MFA, OAuth2/OIDC, SCIM implementations</li>
+          <li>IAM Architecture design</li>
           <li>Keycloak Consulting</li>
+          <li>SSO, MFA, OAuth2/OIDC, SCIM implementations</li>
           <li>Integrations Keycloak, Okta, Auth0</li>
           <li>Migration from legacy authentication systems</li>
           <li>Custom authentication flows and token customization</li>
