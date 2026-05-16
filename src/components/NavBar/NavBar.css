@@ -1,21 +1,23 @@
 
 
 
+
 .NavBar {
     background-color: darkblue;
     height: 80px;
     width: 100%;
     position: fixed;
     z-index: 999;
-    opacity: 0.9;
+    opacity: 0.95;
 
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
 
     padding: 0 20px;
     box-sizing: border-box;
 }
+
 ul li {
     list-style: none;
     margin: 0;
@@ -47,15 +49,15 @@ a {
 
 .contact-email {
     display: flex;
-    align-items: right;
-    gap: 8px; /* Space between icon and text */
-    font-size: 18px;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
     font-weight: bold;
     color: white;
 }
 
 .email-icon {
-    width: 18px; 
+    width: 18px;
     height: 18px;
 }
 
@@ -66,8 +68,8 @@ a {
 }
 
 .company-logo {
-    width: 40px;
-    height: 40px;
+    width: 42px;
+    height: 42px;
     object-fit: contain;
 }
 
@@ -76,59 +78,67 @@ a {
     font-weight: bold;
     color: white;
 }
+
+
 @media only screen and (max-width: 909px) {
 
     .contact-email {
         display: none;
     }
-    .MobileNavigation {
-        display: flex;
-        align-items: center;
-    }
 
     .Navigation {
         display: none;
     }
-    .Hamburger {
-    position: absolute;
-    right: 20px;
-    cursor: pointer;
-    pointer-events: auto;
-    z-index: 1000;
-}
-/*
-    .Hamburger {
-        position: absolute;
-        right: 1%;
-        cursor: pointer;
-        pointer-events: auto;
+
+    .MobileNavigation {
+        display: flex;
+        align-items: center;
+        margin-right: 10px;
     }
-*/
+
+    .Hamburger {
+        cursor: pointer;
+        z-index: 2000;
+    }
+
+    .NavBar {
+        justify-content: flex-start;
+        gap: 15px;
+    }
+
+    .company-title {
+        font-size: 1.2rem;
+    }
+
+    .company-logo {
+        width: 34px;
+        height: 34px;
+    }
+
     .NavBar nav ul {
         display: flex;
         flex-direction: column;
-        position: absolute;
-        top: 60px;
-        right: 0%;
-        width: 60%;
-        background: white;
-    }
 
-    a {
-        text-decoration: none;
-        color: black;
+        position: absolute;
+        top: 80px;
+        left: 0;
+
+        width: 70%;
+        background: white;
+
+        padding: 20px;
     }
 
     .NavBar nav ul li {
-        display: inline-block;
-        margin: 8px;
+        margin: 10px 0;
+    }
+
+    a {
+        color: black;
     }
 
     .NavBar a:hover {
-        border-bottom: none; /*To show border on mouse hover at menu */
+        border-bottom: none;
         color: blue;
     }
-
 }
-
-

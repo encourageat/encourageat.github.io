@@ -28,7 +28,7 @@ import PageHeader from '../../components/PageHeader/PageHeader'
 const NavBar = () => {
     return (
         <div className="NavBar"> 
-
+            <MobileNavigation/>
             <div className="brand-section">
                 <img 
                     src="/favicon.svg" 
@@ -39,7 +39,6 @@ const NavBar = () => {
             </div>
 
             <Navigation/>
-            <MobileNavigation/> 
 
             <div className="contact-email">
                 <img src="images/email.svg" alt="Email" className="email-icon" /> 
