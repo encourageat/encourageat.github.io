@@ -81,6 +81,12 @@
   color: #333;
 }
 
+.payment-note {
+  margin-top: 25px;
+  font-weight: 500;
+  color: darkgreen;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .contact-card {

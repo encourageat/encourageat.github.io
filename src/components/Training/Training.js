@@ -73,11 +73,13 @@ const Training = () => {
       <p>
         <strong>Weekday Training (Monday–Friday):</strong><br />
         Flexible online sessions with 1- to 2-hour classes or short-term intensive training programs.
+        <br/>Availability: 8:00 AM IST to 11:30 PM IST
       </p>
 
       <p>
         <strong>Weekend Training:</strong><br />
         Saturday-only sessions are also available for working professionals.
+          <br/>Availability: 8:00 AM IST to 3:30 PM IST
       </p>
 
       <p>

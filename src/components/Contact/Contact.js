@@ -39,9 +39,17 @@ const Contact = () => {
             </div>
           </div>
 
-          <p className="closing-text">
-            I typically respond within 24 hours.
+          <p className="payment-note">
+           For clients who prefer platform-based contracts and payments,
+           I am also available on <sytong>Upwork</sytong>.
           </p>
+     
+
+          <p className="closing-text">
+            Please reach out to me for more details. I typically respond within 24 hours.
+          </p>
+
+      
 
         </div>
 
