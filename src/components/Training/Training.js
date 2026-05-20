@@ -43,7 +43,7 @@ const Training = () => {
           <li>Keycloak Consulting</li>
           <li>SSO, MFA, OAuth2/OIDC, SCIM implementations</li>
           <li>Integrations Keycloak, Okta, Auth0</li>
-          <li>Migration from legacy authentication systems</li>
+          <li>Keycloak themes customization</li>
           <li>Custom authentication flows and token customization</li>
           <li>CI/CD and Infrastructure as Code (Terraform)</li>
           <li>Production troubleshooting and performance tuning</li>
@@ -53,8 +53,9 @@ const Training = () => {
         <h4>Engagement Model</h4>
         <ul>
           <li>Freelance consulting</li>
-          <li>Short-term projects</li>
           <li>Architecture reviews</li>
+          <li>Short-term projects</li>
+          <li>SSO integrations</li>
           <li>Mentoring, Corporate Training & team enablement</li>
           
         </ul>
@@ -77,9 +78,9 @@ const Training = () => {
       </p>
 
       <p>
-        <strong>Weekend Training:</strong><br />
+        <strong>Weekend Training </strong><br />
         Saturday-only sessions are also available for working professionals.
-          <br/>Availability: 8:00 AM IST to 3:30 PM IST
+          <br/>Availability (Saturday): 8:00 AM IST to 3:30 PM IST
       </p>
 
       <p>
