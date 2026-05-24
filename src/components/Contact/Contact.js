@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <div>
 
-      <PageHeader title={"Contact Details.."} />
+      <PageHeader title={"Contact Details"} />
 
       <div className="contact-wrapper">
 

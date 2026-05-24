@@ -5,9 +5,9 @@ import Footer from '../../components/Footer/Footer'
 const About = () => {
     return (
         <div> 
-            <header>
-                <PageHeader title={'About..'} />
-            </header>
+        
+                <PageHeader title={'About'} />
+            
 
             <div className="about-container">
                 
@@ -31,21 +31,11 @@ const About = () => {
                         <p>
                             I have nearly 14 years of experience contributing to IAM products at Entrust, Canada, 
                             including Level 3 technical support. Currently, I work with a managed Keycloak IAM provider 
-                            on a contract role.
+                            on a contract role for certain IAM assignments.   
                         </p>
-
-                        <p>
-                            I provide <strong>one-to-one and group training programs</strong> tailored to professionals 
-                            and organizations in addition to IAM Consultancy.
-                        </p>
-
-                        <p>
-                            For contact details click 
-                            <a href="/#/contact"> here</a>
-                        </p>
-
+ 
                         <div className="linkedin-section">
-                            <span>Connect with me:</span>
+                            <span>LinkedIn profile:</span>
                             <a 
                                 href="https://www.linkedin.com/in/george-v-thomas-79487887/"
                                 target="_blank"

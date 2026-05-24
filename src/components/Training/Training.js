@@ -13,50 +13,38 @@ const Training = () => {
   }
 
   return (
-    <div className="Training">
+    <div className="iam-consulting">
 
-      <PageHeader title={'IAM Consulting, Training & Development'} />
+      <PageHeader title={'IAM & SSO Expert - OAuth 2.0, SAML - Keycloak'} />
             {/* ===== Consulting & Development ===== */}
       <div className="consulting-box">
 
-        <h2>Consulting, Training & Custom Software Development</h2>
+        <h2>IAM & Keycloak Consultant Service |  Professional Training</h2>
 
-        <p>
-          I provide expert consulting,training and custom development services in Identity and Access Management (IAM),
-          helping organizations design, implement, and scale secure authentication and authorization systems.
-        </p>
+        <p>As an expert <strong>Keycloak consultant</strong>, I provide end-to-end customization, architecture design, and training services in Identity and Access Management (IAM),
+  helping organizations design, implement, and secure modern authentication and authorization systems
+  across cloud and on-premises environments.</p>
 
-        <h4>Primary IAM Expertise</h4>
+        <h3>Services Offered</h3>
         <ul>
-          <li>Keycloak</li>
-        </ul>
-        <h4>Additional IAM Expertise</h4>
-        <ul>
-          <li>Okta</li>
-          <li>Auth0</li>
-          <li>Entrust GetAccess</li>
-        </ul>
-
-        <h4>Services Offered</h4>
-        <ul>
-          <li>IAM Architecture design</li>
+          <li>IAM Architecture design and review</li>
           <li>Keycloak Consulting</li>
           <li>SSO, MFA, OAuth2/OIDC, SCIM implementations</li>
-          <li>Integrations Keycloak, Okta, Auth0</li>
+          <li>Multi-tenant SaaS apps setup</li>
+          <li>Integrations Keycloak, Okta, Auth0 & other IDPs and SaaS apps</li>
           <li>Keycloak themes customization</li>
           <li>Custom authentication flows and token customization</li>
           <li>CI/CD and Infrastructure as Code (Terraform)</li>
-          <li>Production troubleshooting and performance tuning</li>
           <li>Corporate & Individual IAM Training</li>
         </ul>
 
         <h4>Engagement Model</h4>
         <ul>
           <li>Freelance consulting</li>
-          <li>Architecture reviews</li>
-          <li>Short-term projects</li>
+          <li>Architecture design and reviews</li>
+          <li>Short-term & Long-term projects</li>
           <li>SSO integrations</li>
-          <li>Mentoring, Corporate Training & team enablement</li>
+          <li>Mentoring, Corporate Training</li>
           
         </ul>
 
@@ -65,30 +53,9 @@ const Training = () => {
         </Link>
 
       </div>
-
-      <p className="select-note"><strong>Training Details</strong></p>
-
-    <div className="timing-box">
-      <h3>Training Timings</h3>
-
-      <p>
-        <strong>Weekday Training (Monday–Friday):</strong><br />
-        Flexible online sessions with 1- to 2-hour classes or short-term intensive training programs.
-        <br/>Availability: 8:00 AM IST to 11:30 PM IST
-      </p>
-
-      <p>
-        <strong>Weekend Training </strong><br />
-        Saturday-only sessions are also available for working professionals.
-          <br/>Availability (Saturday): 8:00 AM IST to 3:30 PM IST
-      </p>
-
-      <p>
-        <strong>Mode of Instruction:</strong> Online
-      </p>
-    </div>
-
-      <div className="containertr">
+      
+      <div className="iam-training">
+        <h2 className="select-note">IAM & Keycloak Training Workshops</h2>
         <p className="select-note"><strong>Select below for details:</strong></p>
 
         {/* ================= IAM Beginner ================= */}
@@ -150,8 +117,8 @@ const Training = () => {
               <div className="pricing">
                 <h4>Pricing</h4>
                 <p><strong>India:</strong> ₹4500 INR</p>
-                <p><strong>Outside India:</strong> USD $70</p>
-                <p><strong>Duration:</strong> 7 to 9 hours</p>
+                <p><strong>Outside India:</strong> USD $79</p>
+                <p><strong>Duration:</strong> 6 hours</p>
               </div>
 
               <Link 
@@ -220,8 +187,8 @@ const Training = () => {
               <div className="pricing">
                 <h4>Pricing</h4>
                 <p><strong>India:</strong> ₹6,500 INR</p>
-                <p><strong>Outside India:</strong> USD $95</p>
-                <p><strong>Duration:</strong> 10 to 12 hours</p>
+                <p><strong>Outside India:</strong> USD $99</p>
+                <p><strong>Duration:</strong> 8 hours</p>
               </div>
 
               <Link to="/contact" className="enroll-btn">
@@ -284,8 +251,8 @@ const Training = () => {
               <div className="pricing">
                 <h4>Pricing</h4>
                 <p><strong>India:</strong> ₹8,500 INR</p>
-                <p><strong>Outside India:</strong> USD $125</p>
-                <p><strong>Duration:</strong> 14 to 16 hours</p>
+                <p><strong>Outside India:</strong> USD $149</p>
+                <p><strong>Duration:</strong> 12 to 14 hours</p>
               </div>
 
               <Link to="/contact" className="enroll-btn">
@@ -332,8 +299,8 @@ const Training = () => {
               <div className="pricing">
                 <h4>Pricing</h4>
                 <p><strong>India:</strong> ₹6,000 INR</p>
-                <p><strong>Outside India:</strong> USD $90</p>
-                <p><strong>Duration:</strong> 8 to 10 hours</p>
+                <p><strong>Outside India:</strong> USD $99</p>
+                <p><strong>Duration:</strong> 8 hours</p>
                 <p>This is an upcoming course. As of now not available.</p>
               </div>
 
@@ -425,8 +392,8 @@ const Training = () => {
               <div className="pricing">
                 <h4>Pricing</h4>
                 <p><strong>India:</strong> ₹7,000 INR</p>
-                <p><strong>Outside India:</strong> USD $110</p>
-                <p><strong>Duration:</strong> 14 to 16 hours</p>
+                <p><strong>Outside India:</strong> USD $119</p>
+                <p><strong>Duration:</strong> 12 hours</p>
               </div>
 
               <Link 

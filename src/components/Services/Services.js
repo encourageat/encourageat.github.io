@@ -6,16 +6,16 @@ import PageHeader from '../../components/PageHeader/PageHeader'
 const Services = () => {
     return (
         <div> 
-        <header>
-            <PageHeader title={'Services..'}/>
-        </header>
+        
+            <PageHeader title={'Services'}/>
+    
         <div className="container">
         <section className="homesection" style={{ 
             backgroundImage: `url('images/consulting.jpg')` 
             }}>
             <div className="card">
                 <h2>IAM Consulting</h2>
-                <p>Helping businesses implement Identity and Access Management (IAM) solutions on the cloud, and improve their security infrastructure with expert guidance, including assistance with SSO, authentication, authorization, and custom solutions tailored for each business use case.</p>
+                <p>Helping businesses implement Identity and Access Management (IAM) solutions on the cloud, on-premise and improve their security infrastructure with expert guidance, including IAM Architecture design and review, assistance with SSO, authentication, authorization, MFA and custom solutions tailored for each business use case.</p>
             </div>
         </section>
          <section className="homesection" style={{ 
@@ -23,7 +23,7 @@ const Services = () => {
             }}>    
             <div className="card">
                 <h2>IAM Training</h2>
-                <p>Providing individual as well as corporate online training sessions on IAM, Auth0 and Keycloak covering IAM from fundamentals, SSO, OAuth, OpenID Connect, SAML, user federation, customization, MFA, social login and more. For more details click <a href="/" style={{ color: 'blue' }}>here</a></p>
+                <p>Providing online training workshop on IAM fundamentals,Keycloak & Auth0 covering SSO, OAuth 2, OpenID Connect, SAML, user federation, customization, MFA, social login, identity brokering and many more. For more details click <a href="/" style={{ color: 'blue' }}>here</a></p>
             </div>
         </section>
          <section className="homesection" style={{ 
