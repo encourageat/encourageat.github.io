@@ -4,19 +4,15 @@
     <loc>https://encourageat.com/</loc>
   </url>
   <url>
-    <loc>https://encourageat.com/#/about</loc>
+    <loc>https://encourageat.com/about</loc>
   </url>
   <url>
-    <loc>https://encourageat.com/#/services</loc>
-  </url>
-   <url>
-    <loc>https://encourageat.com/#/training</loc>
+    <loc>https://encourageat.com/services</loc>
   </url>
   <url>
-    <loc>https://encourageat.com/#/blog</loc>
+    <loc>https://encourageat.com/iam-training</loc>
   </url>
   <url>
-    <loc>https://encourageat.com/#/contact</loc>
+    <loc>https://encourageat.com/contact</loc>
   </url>
 </urlset>
-

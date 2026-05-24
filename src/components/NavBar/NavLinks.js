@@ -1,6 +1,6 @@
 import './NavBar.css'
 
-import './NavBar.css';
+//import './NavBar.css';
 
 const NavLinks = (props) => {
     return ( 
@@ -14,6 +14,9 @@ const NavLinks = (props) => {
             </li>
             <li onClick = {() =>props.isMobile && props.closeMobileMenu()}>
                 <a href="/services">Services</a>
+            </li>
+             <li onClick = {() =>props.isMobile && props.closeMobileMenu()}>
+                <a href="/iam-training">Training</a>
             </li>
              <li onClick = {() =>props.isMobile && props.closeMobileMenu()}>
                 <a href="/contact">Contact</a>

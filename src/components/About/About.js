@@ -17,23 +17,12 @@ const About = () => {
                         <h2>About Me</h2>
 
                         <p>
-                            I’m <strong>George V. Thomas</strong>, the maintainer of this website. 
-                            I bring over two decades of experience in the IT industry, having worked 
-                            in both product-based and service-based multinational organizations.
+                         Hello, I’m George V. Thomas. I help organizations simplify and secure their digital identity infrastructure. With over 20 years of experience in global tech companies—including 13+ years specialized in product engineering and Level 3 support for Entrust (Canada)—I bring deep expertise in IAM domain.
                         </p>
-
                         <p>
-                            I specialize in designing secure, scalable Identity and Access Management (IAM) 
-                            and cloud-native solutions. My expertise includes SSO, OAuth 2.0, OpenID Connect (OIDC), 
-                            SAML, and modern authentication frameworks.
+                            I am an expert in SSO, OAuth 2.0, OIDC, and SAML. Alongside my independent consulting work, I am currently partnered with a premier managed Keycloak provider to deliver specific IAM services.
                         </p>
-
-                        <p>
-                            I have nearly 14 years of experience contributing to IAM products at Entrust, Canada, 
-                            including Level 3 technical support. Currently, I work with a managed Keycloak IAM provider 
-                            on a contract role for certain IAM assignments.   
-                        </p>
- 
+                        
                         <div className="linkedin-section">
                             <span>LinkedIn profile:</span>
                             <a 

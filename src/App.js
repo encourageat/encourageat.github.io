@@ -16,6 +16,7 @@ import NavBar from './components/NavBar/NavBar'
 
 import Contact from './components/Contact/Contact'
 import Training from './components/Training/Training'
+import TrainingIAM from './components/TrainingIAM/Training-iam'
 
 import About from './components/About/About'
 import Blog from './components/Blog/Blog'
@@ -48,6 +49,7 @@ const App = () => {
       <Route path="/about" exact element={<About/>}/>
       <Route path='/contact' element={<Contact/>} />
       <Route path='/services' element={<Services/>} />
+      <Route path='/iam-training' element={<TrainingIAM/>} />
       <Route path="/" exact element={<Training/>}/>
       </Routes>
     </div>

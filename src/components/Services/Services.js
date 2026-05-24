@@ -15,7 +15,7 @@ const Services = () => {
             }}>
             <div className="card">
                 <h2>IAM Consulting</h2>
-                <p>Helping businesses implement Identity and Access Management (IAM) solutions on the cloud, on-premise and improve their security infrastructure with expert guidance, including IAM Architecture design and review, assistance with SSO, authentication, authorization, MFA and custom solutions tailored for each business use case.</p>
+                <p>Helping businesses implement Identity and Access Management (IAM) solutions on the cloud, on-premise and improve their security infrastructure with expert guidance, including IAM Architecture design and review, assistance with SSO, authentication, authorization, MFA and custom solutions tailored for each business use case.For more details click <a href="/" style={{ color: 'blue' }}>here</a></p>
             </div>
         </section>
          <section className="homesection" style={{ 
@@ -23,7 +23,7 @@ const Services = () => {
             }}>    
             <div className="card">
                 <h2>IAM Training</h2>
-                <p>Providing online training workshop on IAM fundamentals,Keycloak & Auth0 covering SSO, OAuth 2, OpenID Connect, SAML, user federation, customization, MFA, social login, identity brokering and many more. For more details click <a href="/" style={{ color: 'blue' }}>here</a></p>
+                <p>Providing online training workshop on IAM fundamentals,Keycloak & Auth0 covering SSO, OAuth 2, OpenID Connect, SAML, user federation, customization, MFA, social login, identity brokering and many more. For more details click <a href="/iam-training" style={{ color: 'blue' }}>here</a></p>
             </div>
         </section>
          <section className="homesection" style={{ 
