@@ -79,7 +79,7 @@ const TrainingIAM = () => {
                 <li>Zero Trust Overview</li>
               </ul>
 
-              <div className="pricing">
+              <div display="false" className="pricing">
                 <h4>Pricing</h4>
                 <p><strong>India:</strong> ₹4500 INR</p>
                 <p><strong>Outside India:</strong> USD $79</p>

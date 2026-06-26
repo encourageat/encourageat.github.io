@@ -48,6 +48,7 @@ const App = () => {
       <Routes>
       <Route path="/about" exact element={<About/>}/>
       <Route path='/contact' element={<Contact/>} />
+      <Route path='/iam-training' element={<TrainingIAM/>} />
       <Route path="/" exact element={<Home/>}/>
       </Routes>
     </div>

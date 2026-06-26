@@ -43,7 +43,7 @@ const Contact = () => {
 
       
           <p className="closing-text">
-            Please reach out to me for more details. I typically respond within 24 hours.
+            Please reach out with your requirements or project details. I typically respond within 24 hours.
           </p>
 
       

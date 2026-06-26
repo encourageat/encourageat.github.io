@@ -1,5 +1,4 @@
 .NavBar {
-    background-color: white;
     height: 80px;
     width: 100%;
     position: fixed; /*To take care while scrolling*/
@@ -8,6 +7,8 @@
     display: flex; /*applies to whole container */
     justify-content: center;
     align-items: center;
+    background: rgba(255,255,255,.95);
+    backdrop-filter: blur(8px);
 
 }
 ul li {

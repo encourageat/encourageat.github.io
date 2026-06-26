@@ -12,9 +12,10 @@ const Home = () => {
             <section className="hero">
 
                 <div className="hero-left">
+                    <br/>
 
                     <h1>
-                        Enterprise Identity & Access Management Consulting
+                        Identity & Access Management Consulting
                     </h1>
 
                     <p className="hero-tagline">
