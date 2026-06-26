@@ -6,9 +6,8 @@ const About = () => {
     return (
         <div> 
         
-                <PageHeader title={'About'} />
+            <PageHeader title={'About'} />
             
-
             <div className="about-container">
                 
                 <section className="about-left">

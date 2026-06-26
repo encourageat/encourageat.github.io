@@ -3,7 +3,7 @@ import './PageHeader.css'
 const PageHeader = (props) => {
     return (
       <div className="Pageheader">
-        <hr/>
+        <br/>
         <h1>{props.title}</h1>
       </div>
     );

@@ -8,7 +8,9 @@ const Contact = () => {
 
       <PageHeader title={"Contact Details"} />
 
-      <div className="contact-wrapper">
+
+      <div className="contact-container">
+        <section className="contact-left">
 
         <div className="contact-card">
 
@@ -34,17 +36,12 @@ const Contact = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src="/images/linkedin.png" alt="LinkedIn" />
+              <img src="/images/linkedin.png" alt="LinkedIn" />
               </a>
             </div>
           </div>
 
-          <p className="payment-note">
-           For clients who prefer platform-based contracts and payments,
-           I am also available on <sytong>Upwork</sytong>.
-          </p>
-     
-
+      
           <p className="closing-text">
             Please reach out to me for more details. I typically respond within 24 hours.
           </p>
@@ -52,6 +49,13 @@ const Contact = () => {
       
 
         </div>
+        </section>
+
+         <section 
+                    className="contact-right"
+                    style={{ backgroundImage: `url(images/freelance-development.jpg)` }}
+                >
+                </section>
 
       </div>
 
@@ -62,3 +66,10 @@ const Contact = () => {
 };
 
 export default Contact;
+
+/*
+    <p className="payment-note">
+           For clients who prefer platform-based contracts and payments,
+           I am also available on <sytong>Upwork</sytong>.
+          </p>
+*/

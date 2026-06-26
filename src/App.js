@@ -48,15 +48,15 @@ const App = () => {
       <Routes>
       <Route path="/about" exact element={<About/>}/>
       <Route path='/contact' element={<Contact/>} />
-      <Route path='/services' element={<Services/>} />
-      <Route path='/iam-training' element={<TrainingIAM/>} />
-      <Route path="/" exact element={<Training/>}/>
+      <Route path="/" exact element={<Home/>}/>
       </Routes>
     </div>
   );
 }
 
 
-/* <Route path='/blog' element={<Blog/>} />*/
+/* <Route path='/blog' element={<Blog/>} />
+  <Route path='/services' element={<Services/>} />
+      <Route path='/iam-training' element={<TrainingIAM/>} />*/
 
 export default App;

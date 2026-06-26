@@ -12,12 +12,7 @@ const NavLinks = (props) => {
             <li onClick = {() =>props.isMobile && props.closeMobileMenu()}>
                 <a href="/about">About</a>
             </li>
-            <li onClick = {() =>props.isMobile && props.closeMobileMenu()}>
-                <a href="/services">Services</a>
-            </li>
-             <li onClick = {() =>props.isMobile && props.closeMobileMenu()}>
-                <a href="/iam-training">Training</a>
-            </li>
+    
              <li onClick = {() =>props.isMobile && props.closeMobileMenu()}>
                 <a href="/contact">Contact</a>
             </li>

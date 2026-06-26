@@ -2,7 +2,11 @@
     color: white;
     width: 100%; 
     margin-top: auto;
-    background-color: darkblue;
+    background-color: linear-gradient(
+    135deg,
+    #16357A 0%,
+    #1E4DB5 100%
+);
     padding: 15px;
 }
 
