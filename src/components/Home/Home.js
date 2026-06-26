@@ -9,115 +9,114 @@ const Home = () => {
         <div className="home">
 
             {/* Hero Section */}
-
             <section className="hero">
 
-                <div className="hero-left">
+    <div className="hero-left">
 
-                    <h1>
-                        Identity & Access Management Solutions
-                    </h1>
+        <h1>
+            Enterprise Identity & Access Management Consulting
+        </h1>
 
-                    <p className="hero-subtitle">
+        <p className="hero-tagline">
+            Keycloak • OAuth 2.0 • OpenID Connect • SAML • SCIM • Cloud Identity • Architecture & Integration
+        </p>
 
-                        Helping organizations design, implement and modernize
-                        secure Identity & Access Management (IAM) solutions
-                        across cloud, hybrid and on-premises environments.
+        <p className="hero-subtitle">
 
-                    </p>
+            Helping organizations design, implement and modernize secure
+            Identity & Access Management (IAM) solutions across cloud,
+            hybrid and on-premises environments.
 
-                    <p>
+        </p>
 
-                        Specialized in <strong>Keycloak</strong>,
-                        OAuth 2.0,
-                        OpenID Connect (OIDC),
-                        SAML,
-                        SCIM,
-                        Multi-Factor Authentication (MFA),
-                        Identity Federation,
-                        Single Sign-On (SSO),
-                        Kubernetes,
-                        Docker,
-                        Terraform and enterprise identity integrations.
+        <p>
 
-                    </p>
+            I provide consulting services for enterprise authentication,
+            Single Sign-On (SSO), Multi-Factor Authentication (MFA),
+            identity federation, custom Keycloak development,
+            IAM architecture, cloud migrations and enterprise identity
+            integrations. Whether you are building a new IAM platform,
+            integrating business applications, or modernizing an existing
+            identity infrastructure, I can help deliver secure,
+            scalable and standards-based solutions.
 
-                    <div className="hero-buttons">
+        </p>
 
-                        <Link to="/contact" className="primary-btn">
-                            Get in Touch
-                        </Link>
+        <div className="hero-buttons">
 
-                        <Link to="/iam-training" className="secondary-btn">
-                            IAM Training
-                        </Link>
+            <Link to="/contact" className="primary-btn">
+                Get in Touch
+            </Link>
 
-                    </div>
+            <Link to="/iam-training" className="secondary-btn">
+                IAM Training
+            </Link>
 
-                </div>
+        </div>
 
-                <div className="hero-right">
+    </div>
 
-                    <div className="contact-card">
+    <div className="hero-right">
 
-                        <h2>Contact</h2>
+        <div className="contact-card">
 
-                        <p>
+            <h2>Let's Connect</h2>
 
-                            <strong>Email</strong>
+            <p>
 
-                            <br />
+                <strong>Email</strong>
 
-                            <a href="mailto:encourageat@gmail.com">
-                                encourageat@gmail.com
-                            </a>
+                <br />
 
-                        </p>
+                <a href="mailto:encourageat@gmail.com">
+                    encourageat@gmail.com
+                </a>
 
-                        <p>
+            </p>
 
-                            <strong>LinkedIn</strong>
+            <p>
 
-                            <br />
+                <strong>LinkedIn</strong>
 
-                            <a
-                                href="https://www.linkedin.com/in/george-v-thomas-79487887/"
-                                target="_blank"
-                                rel="noopener noreferrer">
+                <br />
 
-                                George V. Thomas
+                <a
+                    href="https://www.linkedin.com/in/george-v-thomas-79487887/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    George V. Thomas
+                </a>
 
-                            </a>
+            </p>
 
-                        </p>
+            <hr />
 
-                        <p>
+            <p><strong>Available For</strong></p>
 
-                            Available for
+            <ul>
 
-                        </p>
+                <li>IAM Consulting</li>
 
-                        <ul>
+                <li>Keycloak Consulting</li>
 
-                            <li>IAM Consulting</li>
+                <li>Architecture Reviews</li>
 
-                            <li>Keycloak Consulting</li>
+                <li>Enterprise SSO Implementations</li>
 
-                            <li>Architecture Reviews</li>
+                <li>Identity Platform Modernization</li>
 
-                            <li>Enterprise SSO</li>
+                <li>Freelance & Contract Projects</li>
 
-                            <li>Freelance Projects</li>
+                <li>Corporate IAM Training</li>
 
-                            <li>Corporate Training</li>
+            </ul>
 
-                        </ul>
+        </div>
 
-                    </div>
+    </div>
 
-                </div>
-
-            </section>
+</section>
 
             {/* Services */}
 
