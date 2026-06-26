@@ -9,12 +9,12 @@ const MobileNavigation = () => {
     const [open,setOpen] = useState(false);
 
     const hamOpen = <CgMenuRound className="Hamburger" 
-                        size='40px' color='white' 
+                        size='40px' color='darkblue' 
                         onClick={() => setOpen(!open)}
                     />
 
     const hamClose= <CgCloseO className="Hamburger" 
-                    size='40px' color='white' 
+                    size='40px' color='darkblue' 
                     onClick={() => setOpen(!open)}
                 />
     const closeMobileMenu = () => setOpen(false);

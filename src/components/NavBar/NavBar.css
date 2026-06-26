@@ -69,6 +69,7 @@ a {
         position: absolute;
         right: 7%;
         cursor: pointer;
+        color: darkblue;
         pointer-events: auto;
     }
 
