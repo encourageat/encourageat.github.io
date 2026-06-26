@@ -18,7 +18,7 @@
 
     padding:70px 8%;
 
-    background:linear-gradient(135deg,#C2185B,#9C27B0);
+    background: linear-gradient(135deg, #1E3A8A 0%, #2563EB 100%);
 
     color:white;
 
@@ -68,7 +68,7 @@
 
     background:white;
 
-    color:#C2185B;
+    color:#1E3A8A;
 
     padding:14px 28px;
 
@@ -106,7 +106,7 @@
 
     background:white;
 
-    color:#C2185B;
+    color:#1E3A8A;
 
 }
 
@@ -136,7 +136,7 @@
 
 .contact-card h2{
 
-    color:#C2185B;
+    color:#1E3A8A;
 
 }
 
@@ -196,7 +196,7 @@
 
 .service-card h3{
 
-    color:#C2185B;
+    color:#1E3A8A;
 
 }
 
