@@ -359,7 +359,7 @@ const TrainingIAM = () => {
                 <h4 style={{ display: "none" }}>Pricing</h4>
                 <p style={{ display: "none" }}><strong>India:</strong> ₹7,000 INR</p>
                 <p style={{ display: "none" }}><strong>Outside India:</strong> USD $119</p>
-                <p><strong>Duration:</strong>2 to 3 days</p>
+                <p><strong>Duration:</strong> 3 to 4 days</p>
               </div>
 
               <Link 
