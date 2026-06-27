@@ -77,13 +77,14 @@ const TrainingIAM = () => {
                 <li>Enterprise IAM</li>
                 <li>Centralized Identity Systems</li>
                 <li>Zero Trust Overview</li>
+                <li>Seccuring AI agents access in MCP Server</li>
               </ul>
 
               <div display="false" className="pricing">
-                <h4>Pricing</h4>
-                <p><strong>India:</strong> ₹4500 INR</p>
-                <p><strong>Outside India:</strong> USD $79</p>
-                <p><strong>Duration:</strong> 6 hours</p>
+                <h4 style={{ display: "none" }}>Pricing</h4>
+                <p style={{ display: "none" }}><strong>India:</strong> ₹4500 INR</p>
+                <p style={{ display: "none" }}><strong>Outside India:</strong> USD $79</p>
+                <p><strong>Duration:</strong> 1 to 2 days</p>
               </div>
 
               <Link 
@@ -150,10 +151,10 @@ const TrainingIAM = () => {
               </ul>
 
               <div className="pricing">
-                <h4>Pricing</h4>
-                <p><strong>India:</strong> ₹6,500 INR</p>
-                <p><strong>Outside India:</strong> USD $99</p>
-                <p><strong>Duration:</strong> 8 hours</p>
+                <h4 style={{ display: "none" }}>Pricing</h4>
+                <p style={{ display: "none" }}><strong>India:</strong> ₹6,500 INR</p>
+                <p style={{ display: "none" }}><strong>Outside India:</strong> USD $99</p>
+                <p><strong>Duration:</strong>2 tp 3 days</p>
               </div>
 
               <Link to="/contact" className="enroll-btn">
@@ -214,10 +215,10 @@ const TrainingIAM = () => {
               </ul>
 
               <div className="pricing">
-                <h4>Pricing</h4>
-                <p><strong>India:</strong> ₹8,500 INR</p>
-                <p><strong>Outside India:</strong> USD $149</p>
-                <p><strong>Duration:</strong> 12 to 14 hours</p>
+                <h4 style={{ display: "none" }}>Pricing</h4>
+                <p style={{ display: "none" }}><strong>India:</strong> ₹8,500 INR</p>
+                <p style={{ display: "none" }}><strong>Outside India:</strong> USD $149</p>
+                <p><strong>Duration:</strong>2 to 3 days</p>
               </div>
 
               <Link to="/contact" className="enroll-btn">
@@ -262,10 +263,10 @@ const TrainingIAM = () => {
               </ul>
 
               <div className="pricing">
-                <h4>Pricing</h4>
-                <p><strong>India:</strong> ₹6,000 INR</p>
-                <p><strong>Outside India:</strong> USD $99</p>
-                <p><strong>Duration:</strong> 8 hours</p>
+                <h4 style={{ display: "none" }}>Pricing</h4>
+                <p style={{ display: "none" }}><strong>India:</strong> ₹6,000 INR</p>
+                <p style={{ display: "none" }}><strong>Outside India:</strong> USD $99</p>
+                <p><strong>Duration:</strong>2 to 3 days</p>
                 <p>This is an upcoming course. As of now not available.</p>
               </div>
 
@@ -355,10 +356,10 @@ const TrainingIAM = () => {
               </ul>
 
               <div className="pricing">
-                <h4>Pricing</h4>
-                <p><strong>India:</strong> ₹7,000 INR</p>
-                <p><strong>Outside India:</strong> USD $119</p>
-                <p><strong>Duration:</strong> 12 hours</p>
+                <h4 style={{ display: "none" }}>Pricing</h4>
+                <p style={{ display: "none" }}><strong>India:</strong> ₹7,000 INR</p>
+                <p style={{ display: "none" }}><strong>Outside India:</strong> USD $119</p>
+                <p><strong>Duration:</strong>2 to 3 days</p>
               </div>
 
               <Link 
